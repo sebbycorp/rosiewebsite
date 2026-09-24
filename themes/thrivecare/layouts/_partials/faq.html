@@ -1,8 +1,9 @@
+{{- /* Context: dict "items" (slice of FAQ entries from data/faq.yaml) */ -}}
 <div class="faq">
-  {{ range hugo.Data.faq }}
+  {{ range .items }}
   <details class="faq-item">
     <summary><span>{{ .q }}</span><span class="faq-icon" aria-hidden="true"></span></summary>
-    <div class="faq-body"><p>{{ .a }}</p></div>
+    <div class="faq-body"><p>{{ .a | markdownify }}</p></div>
   </details>
   {{ end }}
 </div>

@@ -1,18 +1,24 @@
 # ---------------------------------------------------------------
-# Frequently asked questions (DRAFT). Shown on the Home page.
+# Frequently asked questions (DRAFT). All are shown on the Home page.
+# Questions with process: true are also shown on the How it works page.
+# Answers support Markdown links, e.g. [text](/menopause/).
 # Replace every answer with confirmed information before launch.
 # ---------------------------------------------------------------
 - q: "Who is ThriveCare for?"
-  a: "Draft answer (edit me): describe who you support, for example adults who want medically guided help with weight loss, and people navigating perimenopause or menopause."
+  a: "Draft answer (edit me): describe who you support, for example adults who want medically guided help with weight loss."
 - q: "Can you help with menopause symptoms as well as weight?"
-  a: "Draft answer (edit me): explain how weight and menopause care fit together at ThriveCare, and what kinds of concerns you can help with."
+  a: "Draft answer (edit me): menopause and perimenopause care is coming soon. For now, ThriveCare focuses on medical weight loss. [Learn more about menopause care](/menopause/)."
 - q: "Do I need a referral?"
+  process: true
   a: "Draft answer (edit me): explain whether a referral is needed."
 - q: "Are visits in person or virtual?"
+  process: true
   a: "Draft answer (edit me): describe your visit options and service area."
 - q: "How much does it cost, and is it covered?"
   a: "Draft answer (edit me): add confirmed fees and coverage information. Don't publish until confirmed."
 - q: "What happens at my first appointment?"
+  process: true
   a: "Draft answer (edit me): walk people through what to expect and how to prepare."
 - q: "Is this a diet program?"
+  process: true
   a: "Draft answer (edit me): explain your approach, for example that care is personalised and focused on long-term health rather than quick fixes or strict rules."

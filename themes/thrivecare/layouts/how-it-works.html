@@ -1,0 +1,49 @@
+{{ define "main" }}
+{{ partial "page-header.html" . }}
+
+<section class="section" aria-labelledby="steps-heading">
+  <div class="container">
+    <div class="section-intro">
+      <p class="kicker">The process</p>
+      <h2 id="steps-heading">{{ .Params.steps_heading }}</h2>
+      {{ with .Params.steps_intro }}<p class="lead">{{ . }}</p>{{ end }}
+    </div>
+    <ol class="steps steps-list" role="list">
+      {{ range $i, $s := .Params.steps }}
+      <li class="step">
+        <span class="step-num" aria-hidden="true">{{ printf "%02d" (add $i 1) }}</span>
+        <div>
+          <h3><span class="visually-hidden">Step {{ add $i 1 }}: </span>{{ $s.title }}</h3>
+          <p>{{ $s.text }}</p>
+          {{ with $s.details }}<ul class="card-details">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ end }}
+        </div>
+      </li>
+      {{ end }}
+    </ol>
+  </div>
+</section>
+
+<section class="section section-alt" id="included" aria-labelledby="included-heading">
+  <div class="container">
+    <div class="section-intro">
+      <p class="kicker">Services</p>
+      <h2 id="included-heading">{{ .Params.included_heading }}</h2>
+      {{ with .Params.included_intro }}<p class="lead">{{ . }}</p>{{ end }}
+    </div>
+    {{ partial "service-cards.html" (dict "items" hugo.Data.services "details" true) }}
+  </div>
+</section>
+
+<section class="section" aria-labelledby="faq-heading">
+  <div class="container faq-wrap">
+    <div class="section-intro">
+      <p class="kicker">FAQ</p>
+      <h2 id="faq-heading">{{ .Params.faq_heading }}</h2>
+      <p>Have another question? <a href="{{ "contact/" | relURL }}">Contact us</a>.</p>
+    </div>
+    {{ partial "faq.html" (dict "items" (where hugo.Data.faq "process" true)) }}
+  </div>
+</section>
+
+{{ partial "cta.html" . }}
+{{ end }}

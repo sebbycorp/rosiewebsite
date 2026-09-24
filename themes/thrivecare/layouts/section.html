@@ -2,9 +2,6 @@
 {{ partial "page-header.html" . }}
 <section class="section">
   <div class="container">
-    {{ if eq .Section "services" }}
-      {{ partial "service-cards.html" (dict "items" hugo.Data.services "details" true) }}
-    {{ end }}
     <div class="prose section-note">{{ .Content }}</div>
   </div>
 </section>

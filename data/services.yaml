@@ -1,7 +1,10 @@
 # ---------------------------------------------------------------
 # Services list (DRAFT). Edit, add or remove entries here.
-# - Appears on the Services page; entries with featured: true
-#   also appear on the Home page.
+# - Appears in "What's included" on the How it works page; entries
+#   with featured: true also appear on the Home page.
+# - Menopause and perimenopause care is not offered yet, so it is
+#   not listed here. It has its own "Coming soon" page
+#   (content/menopause.md). Add it back here once it's available.
 # - "details" is optional; each line shows as a bullet point.
 # - icon options: chat, clipboard, plan, calendar, leaf, sprout,
 #   heart, shield
@@ -28,16 +31,9 @@
   summary: "Draft: a weight loss plan built with you, shaped around your health, routines, culture and preferences, never one-size-fits-all."
   details:
     - "How plans are created and reviewed (edit me)"
-- title: "Menopause and perimenopause care"
-  icon: heart
-  featured: true
-  summary: "Draft: support through perimenopause, menopause and beyond, including symptoms such as sleep changes, hot flashes, mood and energy, and how they connect with weight."
-  details:
-    - "What a menopause visit includes (edit me)"
-    - "Describe your clinical approach here (edit me; have it reviewed)"
 - title: "Follow-up and ongoing support"
   icon: calendar
-  featured: false
+  featured: true
   summary: "Draft: regular check-ins to see how you're doing, celebrate progress of every kind and adjust your plan as needed."
   details:
     - "Frequency and format of follow-ups (edit me)"
@@ -56,6 +52,6 @@
 - title: "Medical treatment options, where appropriate"
   icon: shield
   featured: false
-  summary: "Draft: if suitable for you, a discussion of medically supervised treatment options for weight or menopause symptoms, as one part of a broader plan."
+  summary: "Draft: if suitable for you, a discussion of medically supervised treatment options for weight, as one part of a broader plan."
   details:
     - "Describe your clinical approach here (edit me; have it reviewed)"

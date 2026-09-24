@@ -7,8 +7,8 @@ theme = "thrivecare"
 enableRobotsTXT = true
 
 [params]
-  description = "ThriveCare offers supportive, medically guided weight loss and menopause care, focused on your whole health, without judgement. (Draft description: edit me.)"
-  tagline = "Medical weight loss & menopause care"
+  description = "ThriveCare offers supportive, medically guided weight loss care, focused on your whole health, without judgement. (Draft description: edit me.)"
+  tagline = "Medical weight loss"   # text tagline; menopause care is coming soon (the logo artwork is unchanged)
   # --- PLACEHOLDER CONTACT DETAILS: replace before launch ---
   email = "hello@example.com"
   emailNote = "Placeholder email: edit me"
@@ -25,17 +25,21 @@ enableRobotsTXT = true
     pageRef = "/"
     weight = 10
   [[menus.main]]
-    name = "Services"
-    pageRef = "/services"
+    name = "How it works"
+    pageRef = "/how-it-works"
     weight = 20
   [[menus.main]]
     name = "About"
     pageRef = "/about"
     weight = 30
   [[menus.main]]
+    name = "Menopause care"
+    pageRef = "/menopause"
+    weight = 40
+  [[menus.main]]
     name = "Contact"
     pageRef = "/contact"
-    weight = 40
+    weight = 50
 
 [markup.goldmark.renderer]
   unsafe = false

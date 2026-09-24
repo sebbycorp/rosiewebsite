@@ -1,6 +1,6 @@
 # ThriveCare website
 
-The website for **ThriveCare** (thrivecare.ca): medical weight loss & menopause care. Supportive, medically guided and judgement-free.
+The website for **ThriveCare** (thrivecare.ca): medical weight loss care (menopause care is coming soon and has its own placeholder page). Supportive, medically guided and judgement-free.
 
 Built with [Hugo](https://gohugo.io/) (extended) and a small custom theme (`themes/thrivecare`). There's no CSS framework and no build tooling beyond Hugo.
 
@@ -35,10 +35,11 @@ All text lives in Markdown/YAML files. Edit them on GitHub (pencil icon) or loca
 
 | What | File |
 | --- | --- |
-| Home page: hero, "Care that feels different", "How it works" steps, provider teaser, closing call to action | `content/_index.md` (front matter at the top) |
-| Services list (Services page and Home page preview) | `data/services.yaml` (set `featured: true` to show a service on Home) |
-| Services page intro and note | `content/services/_index.md` |
-| FAQ (Home page) | `data/faq.yaml` |
+| Home page: hero, "Care that feels different", short "How it works" steps, provider teaser, closing call to action | `content/_index.md` (front matter at the top) |
+| How it works page: detailed steps, section headings | `content/how-it-works.md` (the old `/services/` address redirects here) |
+| Menopause care "Coming soon" page | `content/menopause.md` |
+| Services list ("What's included" on How it works, and Home page preview) | `data/services.yaml` (set `featured: true` to show a service on Home) |
+| FAQ (Home page; entries with `process: true` also appear on How it works) | `data/faq.yaml` |
 | About page and **provider bio** | `content/about.md` |
 | Contact page text | `content/contact.md` |
 | Email, phone, address, hours, booking link, footer disclaimer | `hugo.toml` under `[params]` |

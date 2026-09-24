@@ -1,8 +1,8 @@
 ---
 title: "About ThriveCare"
 layout: "about"
-description: "About ThriveCare's approach to weight loss and menopause care, and the person behind it. (Draft: edit me.)"
-intro: "People-first, medically guided weight loss and menopause care. (Draft: edit me.)"
+description: "About ThriveCare's approach to weight loss care, and the person behind it. (Draft: edit me.)"
+intro: "People-first, medically guided weight loss care. (Draft: edit me.)"
 
 # ------------------------------------------------------------------
 # FOUNDER / PROVIDER BIO: edit these four fields.
@@ -27,10 +27,10 @@ founder:
 
 ## Our approach
 
-Draft (edit me): ThriveCare was created to offer weight loss and menopause care that is supportive, respectful and grounded in health, not appearance. Describe why ThriveCare exists and who it's for.
+Draft (edit me): ThriveCare was created to offer weight loss care that is supportive, respectful and grounded in health, not appearance. Describe why ThriveCare exists and who it's for.
 
 - **We start by listening.** Draft: explain how you get to know each person.
-- **We look at the whole picture.** Draft: hormones, sleep, energy, mood, movement and nutrition all matter.
+- **We look at the whole picture.** Draft: sleep, energy, mood, stress, movement and nutrition all matter.
 - **We make plans together.** Draft: describe how plans are built with each person and adjusted over time.
 
 ## Where we are

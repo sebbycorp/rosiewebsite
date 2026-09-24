@@ -1,11 +1,11 @@
 ---
 title: "ThriveCare"
-description: "Supportive, medically guided weight loss and menopause care, focused on your whole health, without judgement. (Draft: edit me.)"
+description: "Supportive, medically guided weight loss care, focused on your whole health, without judgement. (Draft: edit me.)"
 
 hero:
-  eyebrow: "Medical weight loss & menopause care"
-  heading: "Feel at home in your health, through every season of life."
-  text: "ThriveCare offers supportive, medically guided care for weight loss and menopause. We focus on your energy, comfort and long-term health, with no judgement and no quick fixes. (Draft: edit me.)"
+  eyebrow: "Medical weight loss"
+  heading: "Feel at home in your health, at your own pace."
+  text: "ThriveCare offers supportive, medically guided weight loss care. We focus on your energy, comfort and long-term health, with no judgement and no quick fixes. (Draft: edit me.)"
   primary_cta: "Book a consultation"
   secondary_cta: "How it works"
   note: "Location / virtual visits (edit me)"
@@ -18,7 +18,7 @@ values:
   - title: "Medically guided"
     text: "Draft: care is guided by a health care professional. Describe your approach (add credentials only once confirmed)."
   - title: "Whole-person health"
-    text: "Draft: weight, hormones, sleep, mood and energy are connected. We look at the whole picture, not just the number on the scale."
+    text: "Draft: weight, sleep, stress, mood and energy are connected. We look at the whole picture, not just the number on the scale."
   - title: "Support that continues"
     text: "Draft: you won't be left to figure it out alone. Describe how people stay supported between visits."
 
