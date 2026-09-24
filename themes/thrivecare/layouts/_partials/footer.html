@@ -4,7 +4,6 @@
       <h2 class="footer-heading">Explore</h2>
       <ul class="footer-list">
         {{ range site.Menus.main }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
-        <li><a href="{{ with site.Params.bookingURL }}{{ . }}{{ else }}{{ "contact/" | relURL }}{{ end }}">Book a consultation</a></li>
       </ul>
     </nav>
     <div class="footer-brand">

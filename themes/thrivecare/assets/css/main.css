@@ -293,3 +293,4 @@ main:focus { outline: none; }
 .soon-card { max-width: 44rem; margin: 0 auto; text-align: center; }
 .soon-card .prose { margin: 0 auto; text-align: left; }
 .soon-card .arch { width: min(11rem, 50%); margin: 0 auto 3rem; isolation: isolate; }
+@media (max-width: 63.99rem) { .header-inner { min-height: 0; padding-top: .8rem; padding-bottom: .8rem; align-items: center; } .brand { padding: 0; } }
