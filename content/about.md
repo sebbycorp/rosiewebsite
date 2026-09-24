@@ -17,13 +17,15 @@ founder:
   photo: "images/provider.jpg"
   photo_alt: "Portrait of Rosie Ilnisky, nurse practitioner and founder of ThriveCare"
   bio: |
-    [Your bio goes here]
+    Rosie Ilnisky is a Nurse Practitioner with over 15 years of nursing experience, practising as a Registered Nurse since 2009 and a Nurse Practitioner since 2019. A graduate of McMaster University, she is committed to providing compassionate, evidence-based care that supports lasting health and wellness.
 
-    [Add a second paragraph if you like]
+    Rosie has extensive experience in primary care, chronic disease management, metabolic health and weight management. She has provided comprehensive weight management care and previously worked as a Certified Diabetes Educator, supporting individuals with diabetes, insulin resistance and other metabolic health concerns.
+
+    She takes a personalized, patient-centred approach, working collaboratively with individuals to develop realistic and sustainable strategies that support long-term success. Her goal is to empower patients with the knowledge, tools and support they need to improve their overall health and quality of life.
 ---
 
-> **Draft page.** Replace the placeholder text below with ThriveCare's real story and approach.
-> Please don't add credentials, statistics or testimonials until they're confirmed.
+> **Draft section.** The provider bio above is final. Replace the placeholder text below with ThriveCare's real story and approach.
+> Please don't add statistics or testimonials until they're confirmed.
 
 ## Our approach
 
