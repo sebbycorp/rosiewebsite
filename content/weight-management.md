@@ -1,10 +1,10 @@
 ---
-title: "How it works"
+title: "Weight management"
 layout: "how-it-works"
-description: "How medical weight loss care works at ThriveCare, from your first conversation to ongoing support. (Draft: edit me.)"
+description: "Medical weight management at ThriveCare: how care works, from your first conversation to ongoing support. (Draft: edit me.)"
 intro: "From your first hello to ongoing support, here's what to expect when you choose ThriveCare. (Draft: edit me.)"
-# The old Services page now redirects here.
-aliases: ["/services/"]
+# The old Services and How it works pages redirect here.
+aliases: ["/services/", "/how-it-works/"]
 
 steps_heading: "Your care, step by step"
 steps_intro: "Draft (edit me): a short sentence about how care is paced around you, with no pressure and no judgement."

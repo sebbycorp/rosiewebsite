@@ -25,17 +25,17 @@ enableRobotsTXT = true
     pageRef = "/"
     weight = 10
   [[menus.main]]
-    name = "How it works"
-    pageRef = "/how-it-works"
+    name = "Weight management"
+    pageRef = "/weight-management"
     weight = 20
   [[menus.main]]
-    name = "About"
+    name = "About us"
     pageRef = "/about"
-    weight = 30
-  [[menus.main]]
-    name = "Menopause care"
-    pageRef = "/menopause"
     weight = 40
+  [[menus.main]]
+    name = "Menopause"
+    pageRef = "/menopause"
+    weight = 30
   [[menus.main]]
     name = "Contact"
     pageRef = "/contact"
