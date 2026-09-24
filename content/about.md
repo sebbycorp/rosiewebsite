@@ -12,10 +12,10 @@ intro: "People-first, medically guided weight loss and menopause care. (Draft: e
 #        between paragraphs. Markdown (bold, links) works here.
 # ------------------------------------------------------------------
 founder:
-  name: "[Your name]"
-  title: "[Your title / role]"
+  name: "Rosie Ilnisky, MScN, NP"
+  title: "Nurse Practitioner and founder of ThriveCare"
   photo: "images/provider.jpg"
-  photo_alt: "Portrait of ThriveCare's founder"
+  photo_alt: "Portrait of Rosie Ilnisky, nurse practitioner and founder of ThriveCare"
   bio: |
     [Your bio goes here]
 
