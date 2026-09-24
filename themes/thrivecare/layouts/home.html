@@ -2,28 +2,19 @@
 {{ $h := .Params.hero }}
 {{ $book := site.Params.bookingURL | default ("contact/" | relURL) }}
 <section class="hero">
+  <img class="hero-leaf" src="{{ "images/leaf-mark.svg" | relURL }}" alt="" width="520" height="520" aria-hidden="true">
+  <img class="hero-leaf hero-leaf-left" src="{{ "images/leaf-mark.svg" | relURL }}" alt="" width="300" height="300" aria-hidden="true">
   <div class="container hero-inner">
-    <div class="hero-copy">
-      <p class="eyebrow">{{ $h.eyebrow }}</p>
-      <h1>{{ $h.heading }}</h1>
-      <p class="lead">{{ $h.text }}</p>
-      <div class="btn-row">
-        <a class="btn" href="{{ $book }}">{{ $h.primary_cta }}</a>
-        <a class="btn btn-ghost" href="#how-it-works">{{ $h.secondary_cta }}</a>
-      </div>
-      {{ with $h.note }}<p class="hero-note">{{ . }}</p>{{ end }}
+    <img class="hero-mark" src="{{ "images/leaf-mark.svg" | relURL }}" alt="" width="56" height="56" aria-hidden="true">
+    <p class="eyebrow">{{ $h.eyebrow }}</p>
+    <h1>{{ $h.heading }}</h1>
+    <span class="rule" aria-hidden="true"></span>
+    <p class="lead">{{ $h.text }}</p>
+    <div class="btn-row">
+      <a class="btn" href="{{ $book }}">{{ $h.primary_cta }}</a>
+      <a class="btn btn-ghost" href="#how-it-works">{{ $h.secondary_cta }}</a>
     </div>
-    <div class="hero-art" aria-hidden="true">
-      <svg viewBox="0 0 400 400">
-        <path d="M200 18c92 0 172 62 180 160 8 104-70 204-180 204S12 290 20 186C28 86 108 18 200 18Z" fill="#dfe9e2"/>
-        <path d="M205 70c70 0 126 52 126 128s-58 132-131 132S72 272 72 196 135 70 205 70Z" fill="#c9dccf"/>
-        <path d="M200 320V186" stroke="#1d4f4b" stroke-width="7" stroke-linecap="round"/>
-        <path d="M200 228c-54 0-86-31-86-86 54 0 86 31 86 86Z" fill="#5f8a70"/>
-        <path d="M200 202c0-50 30-80 80-80 0 50-30 80-80 80Z" fill="#1d4f4b"/>
-        <circle cx="312" cy="92" r="24" fill="#e8b98f"/>
-        <path d="M60 330c40-18 80-18 120 0s80 18 120 0 60-14 80-8" fill="none" stroke="#5f8a70" stroke-width="4" stroke-linecap="round" opacity=".5"/>
-      </svg>
-    </div>
+    {{ with $h.note }}<p class="hero-note"><span class="placeholder-tag">{{ . }}</span></p>{{ end }}
   </div>
 </section>
 
@@ -37,7 +28,6 @@
     <ul class="value-grid" role="list">
       {{ range .Params.values }}
       <li class="value">
-        <span class="value-icon">{{ partial "icon.html" .icon }}</span>
         <h3>{{ .title }}</h3>
         <p>{{ .text }}</p>
       </li>
@@ -56,7 +46,7 @@
     <ol class="steps" role="list">
       {{ range $i, $s := .Params.steps }}
       <li class="step">
-        <span class="step-num" aria-hidden="true">{{ add $i 1 }}</span>
+        <span class="step-num" aria-hidden="true">{{ printf "%02d" (add $i 1) }}</span>
         <h3><span class="visually-hidden">Step {{ add $i 1 }}: </span>{{ $s.title }}</h3>
         <p>{{ $s.text }}</p>
       </li>

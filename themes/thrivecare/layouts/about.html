@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ partial "page-header.html" . }}
 {{ with .Params.founder }}
-<section class="section section-sand" id="founder" aria-labelledby="founder-heading">
+<section class="section founder-section" id="founder" aria-labelledby="founder-heading">
   <div class="container founder">
     <img class="portrait" src="{{ .photo | relURL }}" alt="{{ .photo_alt }}" width="360" height="360">
     <div class="founder-copy">

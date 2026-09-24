@@ -1,29 +1,25 @@
 ---
 title: "ThriveCare"
-description: "Supportive, medically guided, judgement-free weight management. (Draft: edit me.)"
+description: "Supportive, medically guided weight loss and menopause care, focused on your whole health, without judgement. (Draft: edit me.)"
 
 hero:
-  eyebrow: "Weight management care · Location / virtual (edit me)"
-  heading: "Weight care that starts with you, not the scale."
-  text: "ThriveCare offers supportive, medically guided weight management focused on your overall health, energy and well-being. No judgement, no quick fixes, just care that fits your life. (Draft: edit me.)"
+  eyebrow: "Medical weight loss & menopause care"
+  heading: "Feel at home in your health, through every season of life."
+  text: "ThriveCare offers supportive, medically guided care for weight loss and menopause. We focus on your energy, comfort and long-term health, with no judgement and no quick fixes. (Draft: edit me.)"
   primary_cta: "Book a consultation"
   secondary_cta: "How it works"
-  note: "Questions first? You're always welcome to reach out."
+  note: "Location / virtual visits (edit me)"
 
 values_heading: "Care that feels different"
 values_intro: "Draft (edit me): a short sentence about your philosophy."
 values:
   - title: "Judgement-free, always"
-    icon: heart
     text: "Draft: you'll be met with respect and understanding. Your story, your pace and your goals come first."
   - title: "Medically guided"
-    icon: shield
-    text: "Draft: care is guided by health care professionals. Describe your team and approach (add credentials only once confirmed)."
-  - title: "Health over the number"
-    icon: sprout
-    text: "Draft: we focus on how you feel: energy, sleep, mood and long-term health, not just weight."
+    text: "Draft: care is guided by a health care professional. Describe your approach (add credentials only once confirmed)."
+  - title: "Whole-person health"
+    text: "Draft: weight, hormones, sleep, mood and energy are connected. We look at the whole picture, not just the number on the scale."
   - title: "Support that continues"
-    icon: chat
     text: "Draft: you won't be left to figure it out alone. Describe how people stay supported between visits."
 
 steps_heading: "Getting started is simple"

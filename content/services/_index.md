@@ -1,6 +1,6 @@
 ---
 title: "Services"
-description: "Weight management services offered by ThriveCare. (Draft: edit me.)"
+description: "Medical weight loss and menopause care services at ThriveCare. (Draft: edit me.)"
 intro: "Every person's health journey is different. These services are a starting point we shape around you."
 ---
 

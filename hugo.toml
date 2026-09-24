@@ -1,5 +1,4 @@
-# Site configuration. To move to https://thrivecare.ca later, change baseURL
-# (see README) and add static/CNAME.
+# Site configuration. Live at https://thrivecare.ca (see static/CNAME).
 baseURL = "https://thrivecare.ca/"
 locale = "en-CA"
 disableKinds = ["taxonomy", "term", "RSS"]
@@ -8,8 +7,8 @@ theme = "thrivecare"
 enableRobotsTXT = true
 
 [params]
-  description = "Supportive, medically guided, judgement-free weight management. (Placeholder description: edit me.)"
-  tagline = "Supportive, medically guided weight management"
+  description = "ThriveCare offers supportive, medically guided weight loss and menopause care, focused on your whole health, without judgement. (Draft description: edit me.)"
+  tagline = "Medical weight loss & menopause care"
   # --- PLACEHOLDER CONTACT DETAILS: replace before launch ---
   email = "hello@example.com"
   emailNote = "Placeholder email: edit me"

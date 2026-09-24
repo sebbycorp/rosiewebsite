@@ -3,7 +3,9 @@
 # Replace every answer with confirmed information before launch.
 # ---------------------------------------------------------------
 - q: "Who is ThriveCare for?"
-  a: "Draft answer (edit me): describe who you support, for example adults who want medically guided help with their weight and overall health."
+  a: "Draft answer (edit me): describe who you support, for example adults who want medically guided help with weight loss, and people navigating perimenopause or menopause."
+- q: "Can you help with menopause symptoms as well as weight?"
+  a: "Draft answer (edit me): explain how weight and menopause care fit together at ThriveCare, and what kinds of concerns you can help with."
 - q: "Do I need a referral?"
   a: "Draft answer (edit me): explain whether a referral is needed."
 - q: "Are visits in person or virtual?"

@@ -1,6 +1,6 @@
 # ThriveCare website
 
-The website for **ThriveCare** (thrivecare.ca): supportive, medically guided, judgement-free weight management.
+The website for **ThriveCare** (thrivecare.ca): medical weight loss & menopause care. Supportive, medically guided and judgement-free.
 
 Built with [Hugo](https://gohugo.io/) (extended) and a small custom theme (`themes/thrivecare`). There's no CSS framework and no build tooling beyond Hugo.
 
