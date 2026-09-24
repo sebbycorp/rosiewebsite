@@ -1,0 +1,20 @@
+{{ define "main" }}
+{{ partial "page-header.html" . }}
+{{ with .Params.founder }}
+<section class="section section-sand" id="founder" aria-labelledby="founder-heading">
+  <div class="container founder">
+    <img class="portrait" src="{{ .photo | relURL }}" alt="{{ .photo_alt }}" width="360" height="360">
+    <div class="founder-copy">
+      <p class="kicker">Meet your provider <span class="placeholder-tag">Placeholder: edit in content/about.md</span></p>
+      <h2 id="founder-heading">{{ .name }}</h2>
+      <p class="founder-title">{{ .title }}</p>
+      <div class="prose">{{ .bio | markdownify }}</div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<section class="section">
+  <div class="container"><div class="prose">{{ .Content }}</div></div>
+</section>
+{{ partial "cta.html" . }}
+{{ end }}

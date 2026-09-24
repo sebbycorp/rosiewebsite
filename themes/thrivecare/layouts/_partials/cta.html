@@ -1,0 +1,10 @@
+{{ $c := site.Home.Params.cta }}
+<section class="cta-band" aria-labelledby="cta-heading">
+  <div class="container cta-inner">
+    <div>
+      <h2 id="cta-heading">{{ $c.heading }}</h2>
+      <p>{{ $c.text }}</p>
+    </div>
+    <a class="btn btn-light" href="{{ "contact/" | relURL }}">{{ $c.button }}</a>
+  </div>
+</section>
