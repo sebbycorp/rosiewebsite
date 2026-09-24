@@ -1,10 +1,9 @@
 {{ $c := site.Home.Params.cta }}
 <section class="cta-band" aria-labelledby="cta-heading">
   <div class="container cta-inner">
-    <div>
-      <h2 id="cta-heading">{{ $c.heading }}</h2>
-      <p>{{ $c.text }}</p>
-    </div>
-    <a class="btn btn-light" href="{{ "contact/" | relURL }}">{{ $c.button }}</a>
+    <img class="cta-mark" src="{{ "images/leaf-mark.svg" | relURL }}" alt="" width="44" height="44" aria-hidden="true">
+    <h2 id="cta-heading">{{ $c.heading }}</h2>
+    <p>{{ $c.text }}</p>
+    <a class="btn btn-wide" href="{{ "contact/" | relURL }}">{{ $c.button }}</a>
   </div>
 </section>

@@ -3,8 +3,8 @@
 
 <section class="section" aria-labelledby="steps-heading">
   <div class="container">
-    <div class="section-intro">
-      <p class="kicker">The process</p>
+    <div class="section-intro section-intro-center">
+      <p class="kicker label-lined"><span>The process</span></p>
       <h2 id="steps-heading">{{ .Params.steps_heading }}</h2>
       {{ with .Params.steps_intro }}<p class="lead">{{ . }}</p>{{ end }}
     </div>
@@ -23,10 +23,10 @@
   </div>
 </section>
 
-<section class="section section-alt" id="included" aria-labelledby="included-heading">
+<section class="section section-sage" id="included" aria-labelledby="included-heading">
   <div class="container">
-    <div class="section-intro">
-      <p class="kicker">Services</p>
+    <div class="section-intro section-intro-center">
+      <p class="kicker label-lined"><span>Services</span></p>
       <h2 id="included-heading">{{ .Params.included_heading }}</h2>
       {{ with .Params.included_intro }}<p class="lead">{{ . }}</p>{{ end }}
     </div>
@@ -37,7 +37,7 @@
 <section class="section" aria-labelledby="faq-heading">
   <div class="container faq-wrap">
     <div class="section-intro">
-      <p class="kicker">FAQ</p>
+      <p class="kicker kicker-lg">FAQ</p>
       <h2 id="faq-heading">{{ .Params.faq_heading }}</h2>
       <p>Have another question? <a href="{{ "contact/" | relURL }}">Contact us</a>.</p>
     </div>

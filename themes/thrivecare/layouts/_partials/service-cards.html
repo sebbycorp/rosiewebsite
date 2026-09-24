@@ -1,13 +1,18 @@
 {{- /* Context: dict "items" (slice of services) "details" (bool) */ -}}
 <ul class="card-grid" role="list">
-  {{ range .items }}
+  {{ range $i, $s := .items }}
   <li class="card">
-    <span class="placeholder-tag card-tag">Draft: edit me</span>
-    <h3>{{ .title }}</h3>
-    <p>{{ .summary }}</p>
-    {{ if and $.details .details }}
-    <ul class="card-details">{{ range .details }}<li>{{ . }}</li>{{ end }}</ul>
-    {{ end }}
+    <div class="card-art{{ if modBool $i 2 }} card-art-sage{{ end }}" aria-hidden="true">
+      <img src="{{ "images/leaf-mark.svg" | relURL }}" alt="" width="64" height="64">
+    </div>
+    <div class="card-body">
+      <span class="placeholder-tag card-tag">Draft: edit me</span>
+      <h3>{{ $s.title }}</h3>
+      <p>{{ $s.summary }}</p>
+      {{ if and $.details $s.details }}
+      <ul class="card-details">{{ range $s.details }}<li>{{ . }}</li>{{ end }}</ul>
+      {{ end }}
+    </div>
   </li>
   {{ end }}
 </ul>

@@ -3,9 +3,11 @@
 {{ with .Params.founder }}
 <section class="section founder-section" id="founder" aria-labelledby="founder-heading">
   <div class="container founder">
-    <img class="portrait" src="{{ .photo | relURL }}" alt="{{ .photo_alt }}" width="360" height="360">
+    <div class="arch-frame arch-frame-lg">
+      <img class="arch-photo" src="{{ .photo | relURL }}" alt="{{ .photo_alt }}" width="400" height="520">
+    </div>
     <div class="founder-copy">
-      <p class="kicker">Meet your provider</p>
+      <p class="kicker kicker-lg">Meet your provider</p>
       <h2 id="founder-heading">{{ .name }}</h2>
       <p class="founder-title">{{ .title }}</p>
       <div class="prose">{{ .bio | markdownify }}</div>

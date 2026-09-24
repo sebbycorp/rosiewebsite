@@ -1,20 +1,21 @@
 <footer class="site-footer">
   <div class="container footer-grid">
+    <nav class="footer-col footer-nav" aria-label="Footer">
+      <h2 class="footer-heading">Explore</h2>
+      <ul class="footer-list">
+        {{ range site.Menus.main }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
+        <li><a href="{{ with site.Params.bookingURL }}{{ . }}{{ else }}{{ "contact/" | relURL }}{{ end }}">Book a consultation</a></li>
+      </ul>
+    </nav>
     <div class="footer-brand">
-      <a href="{{ site.Home.RelPermalink }}"><img src="{{ "images/logo.svg" | relURL }}" alt="ThriveCare home" width="240" height="130"></a>
+      <a href="{{ site.Home.RelPermalink }}"><img src="{{ "images/logo.svg" | relURL }}" alt="ThriveCare home" width="240" height="125"></a>
     </div>
-    <div>
+    <div class="footer-col footer-contact">
       <h2 class="footer-heading">Contact</h2>
       <ul class="footer-list">
         <li><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a> <span class="placeholder-tag">{{ site.Params.emailNote }}</span></li>
         <li><a href="tel:{{ replaceRE "[^0-9+]" "" site.Params.phone }}">{{ site.Params.phone }}</a> <span class="placeholder-tag">{{ site.Params.phoneNote }}</span></li>
         <li>{{ site.Params.address }}</li>
-      </ul>
-    </div>
-    <div>
-      <h2 class="footer-heading">Explore</h2>
-      <ul class="footer-list">
-        {{ range site.Menus.main }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
       </ul>
     </div>
   </div>
