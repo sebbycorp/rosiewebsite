@@ -1,0 +1,110 @@
+{{ define "main" }}
+{{ $h := .Params.hero }}
+{{ $book := site.Params.bookingURL | default ("contact/" | relURL) }}
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">{{ $h.eyebrow }}</p>
+      <h1>{{ $h.heading }}</h1>
+      <p class="lead">{{ $h.text }}</p>
+      <div class="btn-row">
+        <a class="btn" href="{{ $book }}">{{ $h.primary_cta }}</a>
+        <a class="btn btn-ghost" href="#how-it-works">{{ $h.secondary_cta }}</a>
+      </div>
+      {{ with $h.note }}<p class="hero-note">{{ . }}</p>{{ end }}
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 400 400">
+        <path d="M200 18c92 0 172 62 180 160 8 104-70 204-180 204S12 290 20 186C28 86 108 18 200 18Z" fill="#dfe9e2"/>
+        <path d="M205 70c70 0 126 52 126 128s-58 132-131 132S72 272 72 196 135 70 205 70Z" fill="#c9dccf"/>
+        <path d="M200 320V186" stroke="#1d4f4b" stroke-width="7" stroke-linecap="round"/>
+        <path d="M200 228c-54 0-86-31-86-86 54 0 86 31 86 86Z" fill="#5f8a70"/>
+        <path d="M200 202c0-50 30-80 80-80 0 50-30 80-80 80Z" fill="#1d4f4b"/>
+        <circle cx="312" cy="92" r="24" fill="#e8b98f"/>
+        <path d="M60 330c40-18 80-18 120 0s80 18 120 0 60-14 80-8" fill="none" stroke="#5f8a70" stroke-width="4" stroke-linecap="round" opacity=".5"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="values-heading">
+  <div class="container">
+    <div class="section-intro">
+      <p class="kicker">Our approach</p>
+      <h2 id="values-heading">{{ .Params.values_heading }}</h2>
+      {{ with .Params.values_intro }}<p class="lead">{{ . }}</p>{{ end }}
+    </div>
+    <ul class="value-grid" role="list">
+      {{ range .Params.values }}
+      <li class="value">
+        <span class="value-icon">{{ partial "icon.html" .icon }}</span>
+        <h3>{{ .title }}</h3>
+        <p>{{ .text }}</p>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+
+<section class="section section-alt" id="how-it-works" aria-labelledby="steps-heading">
+  <div class="container">
+    <div class="section-intro">
+      <p class="kicker">How it works</p>
+      <h2 id="steps-heading">{{ .Params.steps_heading }}</h2>
+      {{ with .Params.steps_intro }}<p class="lead">{{ . }}</p>{{ end }}
+    </div>
+    <ol class="steps" role="list">
+      {{ range $i, $s := .Params.steps }}
+      <li class="step">
+        <span class="step-num" aria-hidden="true">{{ add $i 1 }}</span>
+        <h3><span class="visually-hidden">Step {{ add $i 1 }}: </span>{{ $s.title }}</h3>
+        <p>{{ $s.text }}</p>
+      </li>
+      {{ end }}
+    </ol>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="services-heading">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="kicker">Services</p>
+        <h2 id="services-heading">How we can support you</h2>
+      </div>
+      <a class="text-link" href="{{ "services/" | relURL }}">See all services <span aria-hidden="true">&rarr;</span></a>
+    </div>
+    {{ partial "service-cards.html" (dict "items" (where hugo.Data.services "featured" true) "details" false) }}
+  </div>
+</section>
+
+{{ with .Params.provider }}
+{{ $about := site.GetPage "/about" }}
+{{ $f := $about.Params.founder }}
+<section class="section section-sand" aria-labelledby="provider-heading">
+  <div class="container provider-teaser">
+    <img class="portrait portrait-sm" src="{{ $f.photo | relURL }}" alt="{{ $f.photo_alt }}" width="240" height="240" loading="lazy">
+    <div>
+      <p class="kicker">About</p>
+      <h2 id="provider-heading">{{ .heading }}</h2>
+      <p class="provider-name">{{ $f.name }} <span class="provider-title">{{ $f.title }}</span></p>
+      <p>{{ .text }}</p>
+      <a class="text-link" href="{{ $about.RelPermalink }}#founder">{{ .link }} <span aria-hidden="true">&rarr;</span></a>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<section class="section" aria-labelledby="faq-heading">
+  <div class="container faq-wrap">
+    <div class="section-intro">
+      <p class="kicker">FAQ</p>
+      <h2 id="faq-heading">{{ .Params.faq_heading }}</h2>
+      <p>Can't find what you're looking for? <a href="{{ "contact/" | relURL }}">Contact us</a>.</p>
+    </div>
+    {{ partial "faq.html" . }}
+  </div>
+</section>
+
+{{ partial "cta.html" . }}
+{{ end }}

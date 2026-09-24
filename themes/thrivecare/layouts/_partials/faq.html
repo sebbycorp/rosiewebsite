@@ -1,0 +1,8 @@
+<div class="faq">
+  {{ range hugo.Data.faq }}
+  <details class="faq-item">
+    <summary><span>{{ .q }}</span><span class="faq-icon" aria-hidden="true"></span></summary>
+    <div class="faq-body"><p>{{ .a }}</p></div>
+  </details>
+  {{ end }}
+</div>

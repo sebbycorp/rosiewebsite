@@ -1,0 +1,49 @@
+{{ define "main" }}
+{{ partial "page-header.html" . }}
+<section class="section">
+  <div class="container contact-grid">
+    <div class="prose">
+      {{ .Content }}
+      <h2>Other ways to reach us</h2>
+      <dl class="contact-details">
+        <dt>Email</dt><dd><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a> <span class="placeholder-tag">{{ site.Params.emailNote }}</span></dd>
+        <dt>Phone</dt><dd><a href="tel:{{ replaceRE "[^0-9+]" "" site.Params.phone }}">{{ site.Params.phone }}</a> <span class="placeholder-tag">{{ site.Params.phoneNote }}</span></dd>
+        <dt>Address</dt><dd>{{ site.Params.address }}</dd>
+        <dt>Hours</dt><dd>{{ site.Params.hours }}</dd>
+      </dl>
+    </div>
+    <div class="form-card">
+      <h2>Send us a message</h2>
+      <p class="form-note">This form opens your email app (no data is stored on this website). <span class="placeholder-tag">Placeholder: connect a secure form service before launch</span></p>
+      <form action="mailto:{{ site.Params.email }}" method="post" enctype="text/plain">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="field">
+          <label for="phone">Phone <span class="optional">(optional)</span></label>
+          <input id="phone" name="phone" type="tel" autocomplete="tel">
+        </div>
+        <div class="field">
+          <label for="topic">How can we help?</label>
+          <select id="topic" name="topic">
+            <option>I'd like to book a consultation</option>
+            <option>I have a question about services</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" aria-describedby="message-hint"></textarea>
+          <p id="message-hint" class="hint">Please don't include personal health information.</p>
+        </div>
+        <button class="btn" type="submit">Send message</button>
+      </form>
+    </div>
+  </div>
+</section>
+{{ end }}

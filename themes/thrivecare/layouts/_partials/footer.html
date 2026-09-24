@@ -1,0 +1,26 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand brand-footer" href="{{ site.Home.RelPermalink }}">{{ partial "logo.html" . }}<span>ThriveCare</span></a>
+      <p class="footer-tagline">{{ site.Params.tagline }}.</p>
+    </div>
+    <div>
+      <h2 class="footer-heading">Contact</h2>
+      <ul class="footer-list">
+        <li><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a> <span class="placeholder-tag">{{ site.Params.emailNote }}</span></li>
+        <li><a href="tel:{{ replaceRE "[^0-9+]" "" site.Params.phone }}">{{ site.Params.phone }}</a> <span class="placeholder-tag">{{ site.Params.phoneNote }}</span></li>
+        <li>{{ site.Params.address }}</li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="footer-heading">Explore</h2>
+      <ul class="footer-list">
+        {{ range site.Menus.main }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p class="disclaimer">{{ site.Params.disclaimer }}</p>
+    <p>&copy; {{ now.Year }} ThriveCare. All rights reserved.</p>
+  </div>
+</footer>

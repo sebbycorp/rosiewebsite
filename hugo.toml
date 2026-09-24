@@ -1,0 +1,45 @@
+# Site configuration. To move to https://thrivecare.ca later, change baseURL
+# (see README) and add static/CNAME.
+baseURL = "https://sebbycorp.github.io/rosiewebsite/"
+locale = "en-CA"
+disableKinds = ["taxonomy", "term", "RSS"]
+title = "ThriveCare"
+theme = "thrivecare"
+enableRobotsTXT = true
+
+[params]
+  description = "Supportive, medically guided, judgement-free weight management. (Placeholder description: edit me.)"
+  tagline = "Supportive, medically guided weight management"
+  # --- PLACEHOLDER CONTACT DETAILS: replace before launch ---
+  email = "hello@example.com"
+  emailNote = "Placeholder email: edit me"
+  phone = "(000) 000-0000"
+  phoneNote = "Placeholder phone: edit me"
+  address = "Street address (edit me), City, Province, Postal code"
+  hours = "Hours (edit me)"
+  bookingURL = ""   # e.g. an online booking link; leave empty to send people to the Contact page
+  disclaimer = "PLACEHOLDER DISCLAIMER (edit me; have it reviewed): Information on this website is general in nature and is not medical advice. It does not replace an individual assessment by a qualified health care professional. If you have an urgent medical concern, call 911 or go to your nearest emergency department."
+
+[menus]
+  [[menus.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 10
+  [[menus.main]]
+    name = "Services"
+    pageRef = "/services"
+    weight = 20
+  [[menus.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 30
+  [[menus.main]]
+    name = "Contact"
+    pageRef = "/contact"
+    weight = 40
+
+[markup.goldmark.renderer]
+  unsafe = false
+
+[minify.tdewolff.html]
+  keepWhitespace = false
