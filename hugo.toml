@@ -1,6 +1,6 @@
 # Site configuration. To move to https://thrivecare.ca later, change baseURL
 # (see README) and add static/CNAME.
-baseURL = "https://sebbycorp.github.io/rosiewebsite/"
+baseURL = "https://thrivecare.ca/"
 locale = "en-CA"
 disableKinds = ["taxonomy", "term", "RSS"]
 title = "ThriveCare"
