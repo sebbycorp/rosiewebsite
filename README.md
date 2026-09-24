@@ -36,7 +36,7 @@ All text lives in Markdown/YAML files. Edit them on GitHub (pencil icon) or loca
 | What | File |
 | --- | --- |
 | Home page: hero, "Care that feels different", short "How it works" steps, provider teaser, closing call to action | `content/_index.md` (front matter at the top) |
-| Weight management page: detailed steps, section headings | `content/how-it-works.md` (the old `/services/` address redirects here) |
+| Weight optimization page: detailed steps, section headings | `content/how-it-works.md` (the old `/services/` address redirects here) |
 | Menopause care "Coming soon" page | `content/menopause.md` |
 | Services list ("What's included" on How it works, and Home page preview) | `data/services.yaml` (set `featured: true` to show a service on Home) |
 | FAQ (Home page; entries with `process: true` also appear on How it works) | `data/faq.yaml` |
