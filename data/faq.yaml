@@ -15,7 +15,7 @@
   process: true
   a: "Draft answer (edit me): describe your visit options and service area."
 - q: "How much does it cost, and is it covered?"
-  a: "The meet and greet is complimentary. The initial consultation is $150 and follow-up visits are $75. Some extended health benefit plans cover nurse practitioner visits, so please check with your provider. See our full fee list on the [Weight optimization page](/weight-optimization/#fees)."
+  a: "The meet and greet is complimentary. The initial consultation is $150 and follow-up visits are $75. Fees do not include the cost of any medication, which may be covered by private benefits or paid out of pocket. Some extended health benefit plans also cover nurse practitioner visits, so please check with your provider. See our full fee list on the [Weight optimization page](/weight-optimization/#fees)."
 - q: "How does ThriveCare protect my privacy?"
   process: true
   a: "We take your privacy seriously. All consultations are confidential, and we follow Canadian and provincial privacy laws to protect your personal health information."

@@ -32,7 +32,7 @@ fees:
   - name: "Follow-up"
     fee: "$75"
     text: "A 30‑minute appointment after your initial consultation."
-fees_note: "Some extended health benefit plans cover nurse practitioner visits. Please check with your provider."
+fees_note: "Fees do not include the cost of any medication, which may be covered by private benefits or paid out of pocket. Some extended health benefit plans also cover nurse practitioner visits. Please check with your provider."
 
 faq_heading: "Questions about getting started"
 ---
