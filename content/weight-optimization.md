@@ -28,10 +28,10 @@ fees:
     text: "A 15‑minute virtual appointment to see if we're the right fit for you."
   - name: "Initial consultation"
     fee: "$150"
-    text: "A 45‑minute in-person appointment to review your health history, complete a physical exam and build your plan together."
+    text: "A 45‑minute virtual appointment to review your health history, complete a physical exam and build your plan together."
   - name: "Follow-up"
     fee: "$75"
-    text: "A 30‑minute appointment after your initial consultation."
+    text: "A 30‑minute virtual appointment after your initial consultation."
 fees_note: "Fees do not include the cost of any medication, which may be covered by private benefits or paid out of pocket. Some extended health benefit plans also cover nurse practitioner visits. Please check with your provider."
 
 faq_heading: "Questions about getting started"

@@ -8,7 +8,7 @@ hero:
   text: "ThriveCare offers supportive, medically guided weight loss care. We focus on your energy, comfort and long-term health, with no judgement and no quick fixes. (Draft: edit me.)"
   primary_cta: "Book a consultation"
   secondary_cta: "How it works"
-  note: "Location / virtual visits (edit me)"
+  note: "Ontario-based · Virtual visits"
 
 values_heading: "Our approach"
 values:

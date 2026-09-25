@@ -37,4 +37,4 @@ Draft (edit me): ThriveCare was created to offer weight loss care that is suppor
 
 ## Where we are
 
-Draft (edit me): add your location, service area and whether you offer in-person or virtual visits.
+ThriveCare is based in Ontario. All of our appointments are virtual, so you can meet with us from the comfort of home.

@@ -11,9 +11,9 @@
 - q: "Do I need a referral?"
   process: true
   a: "Draft answer (edit me): explain whether a referral is needed."
-- q: "Are visits in person or virtual?"
+- q: "Are visits virtual?"
   process: true
-  a: "Draft answer (edit me): describe your visit options and service area."
+  a: "All of our appointments are virtual, so you can meet with us from the comfort of home. ThriveCare is based in Ontario."
 - q: "How much does it cost, and is it covered?"
   a: "The meet and greet is complimentary. The initial consultation is $150 and follow-up visits are $75. Fees do not include the cost of any medication, which may be covered by private benefits or paid out of pocket. Some extended health benefit plans also cover nurse practitioner visits, so please check with your provider. See our full fee list on the [Weight optimization page](/weight-optimization/#fees)."
 - q: "How does ThriveCare protect my privacy?"
