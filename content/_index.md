@@ -4,7 +4,7 @@ description: "Supportive, medically guided weight loss care, focused on your who
 
 hero:
   eyebrow: "Medical weight loss"
-  heading: "Feel at home in your health, at your own pace."
+  heading: "Your body, your pace, your plan."
   text: "ThriveCare offers supportive, medically guided weight loss care. We focus on your energy, comfort and long-term health, with no judgement and no quick fixes. (Draft: edit me.)"
   primary_cta: "Book a consultation"
   secondary_cta: "How it works"
