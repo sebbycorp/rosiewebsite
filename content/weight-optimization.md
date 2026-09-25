@@ -28,7 +28,7 @@ fees:
     text: "A 15‑minute virtual appointment to see if we're the right fit for you."
   - name: "Initial consultation"
     fee: "$150"
-    text: "A 45‑minute virtual appointment to review your health history, complete a physical exam and build your plan together."
+    text: "A 45‑minute virtual appointment to review your medical history, set your goals, order lab work if indicated and build your plan together."
   - name: "Follow-up"
     fee: "$75"
     text: "A 30‑minute virtual appointment after your initial consultation."
