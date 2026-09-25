@@ -302,3 +302,13 @@ main:focus { outline: none; }
 @media (max-width: 63.99rem) { .header-inner { min-height: 0; padding-top: .8rem; padding-bottom: .8rem; align-items: center; } .brand { padding: 0; } }
 /* Links on beige / greige bands use the deeper sage for extra contrast */
 .section-beige a:not(.btn), .section-greige a:not(.btn), .section-sage a:not(.btn) { color: var(--sage-ink); }
+
+/* Fees list (Weight optimization page) */
+.fee-list { list-style: none; max-width: 52rem; margin: 0 auto; padding: 0; }
+.fee { display: grid; grid-template-columns: 1fr; gap: .25rem; padding: 2rem 0; border-top: 1px solid var(--greige-deep); }
+.fee:last-child { border-bottom: 1px solid var(--greige-deep); }
+.fee h3 { margin-bottom: .4rem; }
+.fee-info p { color: var(--ink-muted); margin: 0; font-size: .95rem; }
+.fee-price { margin: .6rem 0 0; font: 400 1.9rem/1.1 var(--font-head); color: var(--sage-deep); }
+@media (min-width: 40rem) { .fee { grid-template-columns: 1fr auto; gap: 0 3rem; align-items: center; } .fee-price { margin: 0; text-align: right; font-size: 2.1rem; } }
+.fee-note { max-width: 52rem; margin: 1.5rem auto 0; color: var(--ink-muted); font-size: .88rem; text-align: center; }

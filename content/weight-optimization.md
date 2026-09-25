@@ -20,5 +20,19 @@ steps:
 included_heading: "What's included"
 included_intro: "Draft (edit me): every plan is shaped around you. These are the kinds of support ThriveCare offers. Edit them in data/services.yaml."
 
+fees_heading: "Fees"
+fees_intro: "We welcome you to book a complimentary meet and greet before your first appointment. There's no obligation to continue."
+fees:
+  - name: "Meet and greet"
+    fee: "Complimentary"
+    text: "A 15‑minute virtual appointment to see if we're the right fit for you."
+  - name: "Initial consultation"
+    fee: "$150"
+    text: "A 45‑minute in-person appointment to review your health history, complete a physical exam and build your plan together."
+  - name: "Follow-up"
+    fee: "$75"
+    text: "A 30‑minute appointment after your initial consultation."
+fees_note: "Some extended health benefit plans cover nurse practitioner visits. Please check with your provider."
+
 faq_heading: "Questions about getting started"
 ---

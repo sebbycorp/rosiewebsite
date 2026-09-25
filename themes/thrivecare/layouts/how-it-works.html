@@ -34,6 +34,29 @@
   </div>
 </section>
 
+{{ with .Params.fees }}
+<section class="section section-sand" id="fees" aria-labelledby="fees-heading">
+  <div class="container">
+    <div class="section-intro section-intro-center">
+      <h2 id="fees-heading" class="label-lined"><span>{{ $.Params.fees_heading }}</span></h2>
+      {{ with $.Params.fees_intro }}<p class="lead">{{ . }}</p>{{ end }}
+    </div>
+    <ul class="fee-list" role="list">
+      {{ range . }}
+      <li class="fee">
+        <div class="fee-info">
+          <h3>{{ .name }}</h3>
+          <p>{{ .text }}</p>
+        </div>
+        <p class="fee-price">{{ .fee }}</p>
+      </li>
+      {{ end }}
+    </ul>
+    {{ with $.Params.fees_note }}<p class="fee-note">{{ . }}</p>{{ end }}
+  </div>
+</section>
+{{ end }}
+
 <section class="section" aria-labelledby="faq-heading">
   <div class="container faq-wrap">
     <div class="section-intro">
