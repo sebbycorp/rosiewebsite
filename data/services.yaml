@@ -17,14 +17,14 @@
   summary: "Draft: a short, no-pressure chat to see whether ThriveCare is the right fit for you and to answer your questions."
   details:
     - "Format and length (edit me)"
-    - "Fee, if any (edit me: confirm before publishing)"
+    - "Complimentary, 15 minutes, virtual"
 - title: "Comprehensive health assessment"
   icon: clipboard
   featured: true
   summary: "Draft: a thorough first visit to understand your health history, daily life and what matters most to you."
   details:
     - "What the visit includes (edit me)"
-    - "In person or virtual (edit me)"
+    - "In person, 45 minutes"
 - title: "Medical weight loss plan"
   icon: plan
   featured: true
