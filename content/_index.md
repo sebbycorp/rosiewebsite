@@ -23,11 +23,11 @@ steps_heading: "Getting started is simple"
 steps_intro: "Draft (edit me): three steps from first hello to ongoing support."
 steps:
   - title: "Reach out"
-    text: "Draft: contact us or book online. We'll answer your questions and help you decide if ThriveCare is right for you."
-  - title: "Your first assessment"
-    text: "Draft: we get to know you, your health history and your goals, then build a personalised plan together."
-  - title: "Ongoing support"
-    text: "Draft: regular follow-ups to check in, adjust your plan and support you over the long term."
+    text: "Contact us or book online for a quick 15-minute meet and greet, so we can make sure we're the right match for you."
+  - title: "Your first visit"
+    text: "A 45-minute appointment where we review your health history, order labs if needed, and build your personal plan."
+  - title: "Get started"
+    text: "We go over your plan together and provide education on nutrition, exercise and sleep, as well as how to take your medication if it's part of your plan."
 
 provider:
   heading: "Meet your provider"
