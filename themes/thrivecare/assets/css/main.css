@@ -153,6 +153,8 @@ main:focus { outline: none; }
 .value-grid, .card-grid, .steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 2.5rem; }
 @media (min-width: 40rem) { .value-grid, .card-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 64rem) { .value-grid { grid-template-columns: repeat(4, 1fr); gap: 3rem; } .card-grid { grid-template-columns: repeat(3, 1fr); gap: 2rem; } }
+@media (min-width: 40rem) { .value-grid-3 { grid-template-columns: 1fr; } }
+@media (min-width: 64rem) { .value-grid-3 { grid-template-columns: repeat(3, 1fr); } }
 .value { border-top: 1px solid var(--sage); padding-top: 1.5rem; }
 .value h3 { margin-bottom: .6rem; }
 .value p, .card p, .step p { color: var(--ink-muted); margin: 0; font-size: .95rem; }

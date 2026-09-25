@@ -16,21 +16,13 @@
   </div>
 </section>
 
-<section class="section section-welcome" aria-labelledby="values-heading">
+<section class="section section-welcome" id="our-approach" aria-labelledby="values-heading">
   <div class="container">
-    <div class="welcome">
-      <div class="welcome-copy">
-        <p class="kicker kicker-lg">Our approach</p>
-        <h2 id="values-heading">{{ .Params.values_heading }}</h2>
-        {{ with .Params.values_intro }}<p class="lead lead-serif">{{ . }}</p>{{ end }}
-        <span class="arrow-down" aria-hidden="true"></span>
-        <a class="btn btn-wide" href="{{ "weight-optimization/" | relURL }}">See how it works</a>
-      </div>
-      <div class="welcome-art" aria-hidden="true">
-        <div class="arch arch-sage"><img src="{{ "images/leaf-mark.svg" | relURL }}" alt="" width="160" height="160"></div>
-      </div>
+    <div class="section-intro section-intro-center">
+      <h2 id="values-heading" class="label-lined"><span>{{ .Params.values_heading }}</span></h2>
+      {{ with .Params.values_intro }}<p class="lead lead-serif">{{ . }}</p>{{ end }}
     </div>
-    <ul class="value-grid" role="list">
+    <ul class="value-grid{{ if eq (len .Params.values) 3 }} value-grid-3{{ end }}" role="list">
       {{ range .Params.values }}
       <li class="value">
         <h3>{{ .title }}</h3>
@@ -38,6 +30,7 @@
       </li>
       {{ end }}
     </ul>
+    <p class="center-link"><a class="btn btn-wide" href="{{ "weight-optimization/" | relURL }}">See how it works</a></p>
   </div>
 </section>
 
