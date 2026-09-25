@@ -25,7 +25,7 @@ steps:
   - title: "Reach out"
     text: "Contact us or book online for a quick 15‑minute meet and greet, so we can make sure we're the right match for you."
   - title: "Your first visit"
-    text: "A 45-minute appointment where we review your health history, order labs if needed, and build your personal plan."
+    text: "A 45‑minute virtual appointment where we review your medical history, set your goals together, order lab work if indicated, and build your personal plan."
   - title: "Get started"
     text: "We go over your plan together and provide education on nutrition, exercise and sleep, as well as how to take your medication if it's part of your plan."
 
