@@ -16,6 +16,9 @@
   a: "Draft answer (edit me): describe your visit options and service area."
 - q: "How much does it cost, and is it covered?"
   a: "Draft answer (edit me): add confirmed fees and coverage information. Don't publish until confirmed."
+- q: "How does ThriveCare protect my privacy?"
+  process: true
+  a: "We take your privacy seriously. All consultations are confidential, and we follow Canadian and provincial privacy laws to protect your personal health information."
 - q: "What happens at my first appointment?"
   process: true
   a: "Draft answer (edit me): walk people through what to expect and how to prepare."

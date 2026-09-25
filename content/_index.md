@@ -23,7 +23,7 @@ steps_heading: "Getting started is simple"
 steps_intro: "Draft (edit me): three steps from first hello to ongoing support."
 steps:
   - title: "Reach out"
-    text: "Contact us or book online for a quick 15-minute meet and greet, so we can make sure we're the right match for you."
+    text: "Contact us or book online for a quick 15‑minute meet and greet, so we can make sure we're the right match for you."
   - title: "Your first visit"
     text: "A 45-minute appointment where we review your health history, order labs if needed, and build your personal plan."
   - title: "Get started"
