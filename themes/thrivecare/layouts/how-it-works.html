@@ -1,5 +1,72 @@
 {{ define "main" }}
-{{ partial "page-header.html" . }}
+{{ $book := site.Params.bookingURL | default ("contact/" | relURL) }}
+<section class="page-header">
+  <img class="page-header-leaf" src="{{ "images/leaf-mark.svg" | relURL }}" alt="" width="260" height="260" aria-hidden="true">
+  <div class="container">
+    <p class="label-lined" aria-hidden="true"><span>ThriveCare</span></p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subheading }}<p class="lead">{{ . }}</p>{{ end }}
+    {{ with .Params.intro }}<div class="page-intro">{{ range . }}<p>{{ . }}</p>{{ end }}</div>{{ end }}
+  </div>
+</section>
+
+{{ with .Params.approach }}
+<section class="section" id="included" aria-labelledby="approach-heading">
+  <div class="container">
+    <div class="section-intro section-intro-center">
+      <h2 id="approach-heading" class="label-lined"><span>{{ .heading }}</span></h2>
+      <p class="lead">{{ .text }}</p>
+    </div>
+    {{ with .list_intro }}<p class="check-intro">{{ . }}</p>{{ end }}
+    <ul class="check-list" role="list">
+      {{ range .items }}<li>{{ . }}</li>{{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.medication }}
+<section class="section section-beige" aria-labelledby="medication-heading">
+  <div class="container">
+    <div class="section-intro section-intro-center feature-copy">
+      <h2 id="medication-heading">{{ .heading }}</h2>
+      {{ range $i, $p := .paragraphs }}<p class="{{ if eq $i 0 }}lead lead-serif{{ else }}lead{{ end }}">{{ $p }}</p>{{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.men_women }}
+<section class="section" aria-labelledby="menwomen-heading">
+  <div class="container">
+    <div class="section-intro section-intro-center">
+      <h2 id="menwomen-heading" class="label-lined"><span>{{ .heading }}</span></h2>
+      <p class="lead">{{ .intro }}</p>
+    </div>
+    <ul class="card-grid card-grid-2" role="list">
+      {{ range .cards }}
+      <li class="card">
+        <div class="card-body">
+          <h3>{{ .title }}</h3>
+          <p>{{ .text }}</p>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.goals }}
+<section class="section section-greige" aria-labelledby="goals-heading">
+  <div class="container">
+    <div class="section-intro section-intro-center goals">
+      <h2 id="goals-heading">{{ .heading }}</h2>
+      {{ range .lines }}<p class="goals-line">{{ . }}</p>{{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
 
 <section class="section" aria-labelledby="steps-heading">
   <div class="container">
@@ -20,17 +87,6 @@
       </li>
       {{ end }}
     </ol>
-  </div>
-</section>
-
-<section class="section section-greige" id="included" aria-labelledby="included-heading">
-  <div class="container">
-    <div class="section-intro section-intro-center">
-      <p class="kicker label-lined"><span>Services</span></p>
-      <h2 id="included-heading">{{ .Params.included_heading }}</h2>
-      {{ with .Params.included_intro }}<p class="lead">{{ . }}</p>{{ end }}
-    </div>
-    {{ partial "service-cards.html" (dict "items" hugo.Data.services "details" true) }}
   </div>
 </section>
 
@@ -68,5 +124,16 @@
   </div>
 </section>
 
+{{ with .Params.closing_cta }}
+<section class="cta-band" aria-labelledby="cta-heading">
+  <div class="container cta-inner cta-inner-wide">
+    <img class="cta-mark" src="{{ "images/leaf-mark.svg" | relURL }}" alt="" width="44" height="44" aria-hidden="true">
+    <h2 id="cta-heading">{{ .heading }}</h2>
+    <p>{{ .text }}</p>
+    <a class="btn btn-wide btn-multiline" href="{{ $book }}">{{ .button }}</a>
+  </div>
+</section>
+{{ else }}
 {{ partial "cta.html" . }}
+{{ end }}
 {{ end }}
