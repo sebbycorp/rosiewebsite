@@ -17,7 +17,7 @@ enableRobotsTXT = true
   address = "Ontario-based · Virtual appointments"
   hours = ""   # leave empty to hide hours
   bookingURL = ""   # e.g. an online booking link; leave empty to send people to the Contact page
-  disclaimer = "PLACEHOLDER DISCLAIMER (edit me; have it reviewed): Information on this website is general in nature and is not medical advice. It does not replace an individual assessment by a qualified health care professional. If you have an urgent medical concern, call 911 or go to your nearest emergency department."
+  disclaimer = "Information on this website is general in nature and is not medical advice. It does not replace an individual assessment by a qualified health care professional. If you have an urgent medical concern, call 911 or go to your nearest emergency department."
 
 [menus]
   [[menus.main]]
