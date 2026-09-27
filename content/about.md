@@ -1,8 +1,8 @@
 ---
 title: "About ThriveCare"
 layout: "about"
-description: "About ThriveCare's approach to weight loss care, and the person behind it. (Draft: edit me.)"
-intro: "People-first, medically guided weight loss care. (Draft: edit me.)"
+description: "About ThriveCare's approach to weight management care, and the person behind it. (Draft: edit me.)"
+intro: "People-first, medically guided weight management care. (Draft: edit me.)"
 
 # ------------------------------------------------------------------
 # FOUNDER / PROVIDER BIO: edit these four fields.
@@ -29,7 +29,7 @@ founder:
 
 ## The ThriveCare approach
 
-Draft (edit me): ThriveCare was created to offer weight loss care that is supportive, respectful and grounded in health, not appearance. Describe why ThriveCare exists and who it's for.
+Draft (edit me): ThriveCare was created to offer weight management care that is supportive, respectful and grounded in health, not appearance. Describe why ThriveCare exists and who it's for.
 
 - **Care starts with listening.** Draft: explain how you get to know each person.
 - **The whole picture matters.** Draft: sleep, energy, mood, stress, movement and nutrition all matter.

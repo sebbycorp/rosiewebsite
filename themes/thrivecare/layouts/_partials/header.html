@@ -15,7 +15,7 @@
           {{ if and .Page (eq .Page $current) }}{{ $active = true }}{{ end }}
           <li><a href="{{ .URL }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
         {{ end }}
-        <li class="nav-cta-item"><a class="btn btn-small" href="{{ with site.Params.bookingURL }}{{ . }}{{ else }}{{ "contact/" | relURL }}{{ end }}">Book a consultation</a></li>
+        <li class="nav-cta-item"><a class="btn btn-small" href="{{ site.Params.bookingURL | default ("contact/#book" | relURL) }}">Book a consultation</a></li>
       </ul>
     </nav>
   </div>

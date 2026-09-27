@@ -12,10 +12,14 @@
         {{ with site.Params.hours }}<dt>Hours</dt><dd>{{ . }}</dd>{{ end }}
       </dl>
     </div>
-    <div class="form-card">
-      <h2>Send a message</h2>
-      <p class="form-note">This form opens your email app (no data is stored on this website). <span class="placeholder-tag">Placeholder: connect a secure form service before launch</span></p>
-      <form action="mailto:{{ site.Params.email }}" method="post" enctype="text/plain">
+    <div class="form-card" id="book">
+      <h2>Request a meet and greet</h2>
+      <p class="form-note">Request a complimentary 15&#8209;minute virtual meet and greet. Your request goes straight to {{ site.Params.email }}.</p>
+      <form action="https://formsubmit.co/{{ site.Params.email }}" method="POST">
+        <input type="hidden" name="_subject" value="New meet and greet request – ThriveCare">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="{{ "contact/thanks/" | absURL }}">
+        <input type="text" name="_honey" class="visually-hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
         <div class="field">
           <label for="name">Name</label>
           <input id="name" name="name" type="text" autocomplete="name" required>
@@ -25,24 +29,21 @@
           <input id="email" name="email" type="email" autocomplete="email" required>
         </div>
         <div class="field">
-          <label for="phone">Phone <span class="optional">(optional)</span></label>
-          <input id="phone" name="phone" type="tel" autocomplete="tel">
+          <label for="preferred_times">Preferred days/times <span class="optional">(optional)</span></label>
+          <input id="preferred_times" name="preferred_times" type="text" placeholder="e.g. weekday evenings">
         </div>
         <div class="field">
-          <label for="topic">What would you like help with?</label>
-          <select id="topic" name="topic">
-            <option>I'd like to book a consultation</option>
-            <option>I have a question about medical weight loss</option>
-            <option>Something else</option>
-          </select>
+          <label for="goals">Anything you'd like to share about your goals? <span class="optional">(optional)</span></label>
+          <textarea id="goals" name="goals" rows="4"></textarea>
         </div>
-        <div class="field">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" aria-describedby="message-hint"></textarea>
-          <p id="message-hint" class="hint">Please don't include personal health information.</p>
+        <div class="field field-check">
+          <input id="consent" name="consent" type="checkbox" value="Yes" required>
+          <label for="consent">I understand this form is for booking only and I won't include personal health information.</label>
         </div>
-        <button class="btn" type="submit">Send message</button>
+        <button class="btn" type="submit">Send request</button>
+        <p class="hint form-after">Please don't include health details here. Those will be discussed privately at your appointment.</p>
       </form>
+    </div>
     </div>
   </div>
 </section>

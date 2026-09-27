@@ -5,7 +5,7 @@ description: "Menopause and perimenopause care is coming soon to ThriveCare. (Dr
 intro: "ThriveCare plans to offer menopause and perimenopause care in the future. It isn't available yet. (Draft: edit me.)"
 ---
 
-> **Coming soon.** ThriveCare isn't offering menopause care just yet. For now, ThriveCare focuses on medical weight loss.
+> **Coming soon.** ThriveCare isn't offering menopause care just yet. For now, ThriveCare focuses on medical weight management.
 
 ## What's planned
 

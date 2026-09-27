@@ -5,12 +5,12 @@
 # Replace every answer with confirmed information before launch.
 # ---------------------------------------------------------------
 - q: "Who is ThriveCare for?"
-  a: "Adults in Ontario, both men and women, who want personalized, medically guided care for their weight, body composition and metabolic health."
+  a: "Adults in Ontario, both men and women, who want personalized, medically guided care for weight loss, weight maintenance and metabolic health."
 - q: "Can you help with menopause symptoms as well as weight?"
   a: "Menopause and perimenopause care is coming soon. For now, ThriveCare focuses on medical weight management, and for women, care may consider changes in weight and body composition during perimenopause and menopause. [Learn more about menopause care](/menopause/)."
 - q: "Do I need a referral?"
   process: true
-  a: "No, you do not need a referral. You can start with a complimentary 15‑minute virtual meet and greet. If you have a primary care provider, collaboration with them to support your weight loss goals is always welcome."
+  a: "No, you do not need a referral. You can start with a complimentary 15‑minute virtual meet and greet. If you have a primary care provider, collaboration with them to support your goals is always welcome."
 - q: "Are visits virtual?"
   process: true
   a: "All appointments are virtual, so you can meet with your nurse practitioner from the comfort of home. ThriveCare is based in Ontario."

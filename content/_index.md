@@ -1,9 +1,9 @@
 ---
 title: "ThriveCare"
-description: "Personalized, evidence-based medical weight management for adults in Ontario, delivered virtually by a nurse practitioner."
+description: "Personalized, evidence-based medical weight management and weight loss care for adults in Ontario, delivered virtually by a nurse practitioner."
 
 hero:
-  eyebrow: "Medical weight loss"
+  eyebrow: "Medical weight management"
   heading: "Your pace, your plan."
   text: "Medical weight management designed around your body, your hormones and your life."
   primary_cta: "Book a consultation"

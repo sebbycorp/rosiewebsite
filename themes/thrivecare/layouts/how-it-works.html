@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $book := site.Params.bookingURL | default ("contact/" | relURL) }}
+{{ $book := site.Params.bookingURL | default ("contact/#book" | relURL) }}
 <section class="page-header">
   <img class="page-header-leaf" src="{{ "images/leaf-mark.svg" | relURL }}" alt="" width="260" height="260" aria-hidden="true">
   <div class="container">

@@ -337,3 +337,9 @@ main:focus { outline: none; }
 .cta-inner-wide { max-width: 48rem; }
 .faq-more { margin: 2rem 0 0; color: var(--ink-muted); font-size: .95rem; }
 .card-icon { width: 3.5rem; height: 3.5rem; color: var(--sage-deep); }
+.field-check { display: grid; grid-template-columns: auto 1fr; gap: .75rem; align-items: start; }
+.field-check input { width: 1.15rem; height: 1.15rem; min-height: 0; margin: .2rem 0 0; padding: 0; accent-color: var(--sage-deep); }
+.field-check label { margin: 0; font-size: .88rem; font-weight: 400; letter-spacing: 0; text-transform: none; color: var(--ink-muted); line-height: 1.6; }
+.form-after { margin-top: 1.25rem; }
+#book { scroll-margin-top: 7rem; }
+.thanks-wrap { text-align: center; }

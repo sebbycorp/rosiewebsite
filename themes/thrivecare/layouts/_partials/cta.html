@@ -4,6 +4,6 @@
     <img class="cta-mark" src="{{ "images/leaf-mark.svg" | relURL }}" alt="" width="44" height="44" aria-hidden="true">
     <h2 id="cta-heading">{{ $c.heading }}</h2>
     <p>{{ $c.text }}</p>
-    <a class="btn btn-wide" href="{{ "contact/" | relURL }}">{{ $c.button }}</a>
+    <a class="btn btn-wide" href="{{ site.Params.bookingURL | default ("contact/#book" | relURL) }}">{{ $c.button }}</a>
   </div>
 </section>

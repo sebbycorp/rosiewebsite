@@ -7,8 +7,8 @@ theme = "thrivecare"
 enableRobotsTXT = true
 
 [params]
-  description = "ThriveCare offers supportive, medically guided weight loss care, focused on your whole health, without judgement. (Draft description: edit me.)"
-  tagline = "Medical weight loss"   # text tagline; menopause care is coming soon (the logo artwork is unchanged)
+  description = "Personalized, evidence-based medical weight management and weight loss care for adults in Ontario, delivered virtually by a nurse practitioner."
+  tagline = "Medical Weight Management in Ontario"   # text tagline; menopause care is coming soon (the logo artwork is unchanged)
   # --- PLACEHOLDER CONTACT DETAILS: replace before launch ---
   email = "rosie@thrivecare.ca"
   emailNote = ""
@@ -25,7 +25,7 @@ enableRobotsTXT = true
     pageRef = "/"
     weight = 10
   [[menus.main]]
-    name = "Weight optimization"
+    name = "Weight management"
     pageRef = "/weight-optimization"
     weight = 20
   [[menus.main]]

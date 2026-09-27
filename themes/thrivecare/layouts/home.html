@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $h := .Params.hero }}
-{{ $book := site.Params.bookingURL | default ("contact/" | relURL) }}
+{{ $book := site.Params.bookingURL | default ("contact/#book" | relURL) }}
 <section class="hero">
   <img class="hero-leaf" src="{{ "images/leaf-mark.svg" | relURL }}" alt="" width="520" height="520" aria-hidden="true">
   <img class="hero-leaf hero-leaf-left" src="{{ "images/leaf-mark.svg" | relURL }}" alt="" width="300" height="300" aria-hidden="true">
@@ -58,11 +58,11 @@
   <div class="container">
     <div class="section-intro section-intro-center">
       <p class="kicker label-lined"><span>Your care</span></p>
-      <h2 id="services-heading">Medical weight loss</h2>
+      <h2 id="services-heading">Medical weight management</h2>
       <p class="lead">One focused service, from your first visit to ongoing support.</p>
     </div>
     {{ partial "service-cards.html" (dict "items" (where hugo.Data.services "featured" true) "details" false) }}
-    <p class="center-link"><a class="text-link" href="{{ "weight-optimization/" | relURL }}">Learn more about medical weight loss <span aria-hidden="true">&rarr;</span></a></p>
+    <p class="center-link"><a class="text-link" href="{{ "weight-optimization/" | relURL }}">Learn more about medical weight management <span aria-hidden="true">&rarr;</span></a></p>
   </div>
 </section>
 

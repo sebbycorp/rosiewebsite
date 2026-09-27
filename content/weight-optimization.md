@@ -11,7 +11,7 @@ aliases: ["/services/", "/how-it-works/", "/weight-management/"]
 
 approach:
   heading: "A Personalized Approach"
-  text: "Your weight-loss journey is unique. Your medical history, lifestyle, nutrition, activity, medications, goals and individual health needs are all considered when developing your treatment plan."
+  text: "Your journey is unique. Your medical history, lifestyle, nutrition, activity, medications, goals and individual health needs are all considered when developing your treatment plan."
   list_intro: "Care may include:"
   items:
     - "Comprehensive medical assessment"
