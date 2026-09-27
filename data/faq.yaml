@@ -16,7 +16,7 @@
   a: "All appointments are virtual, so you can meet with your nurse practitioner from the comfort of home. ThriveCare is based in Ontario."
 - q: "How much does it cost, and is it covered?"
   process: true
-  a: "Nurse practitioner visits aren't covered by OHIP, so visits are paid privately, though they may be covered under your extended health benefits. Please check with your benefits provider to see what your plan includes. Lab work ordered as part of your care is covered by OHIP, and medication costs are separate and may be covered by private benefits or paid out of pocket. You'll find details about each visit in the [Fees section](/weight-optimization/#fees)."
+  a: "Nurse practitioner visits aren't covered by OHIP, so visits are paid privately, though they may be covered under your extended health benefits. Please check with your benefits provider to see what your plan includes. Bloodwork is covered by OHIP, and medication costs are separate and may be covered by private benefits or paid out of pocket. You'll find details about each visit in the [Fees section](/weight-optimization/#fees)."
 - q: "Can you prescribe medication?"
   process: true
   a: "Yes. Nurse practitioners in Ontario can prescribe medication. If medication is clinically appropriate for you, your options will be discussed together and included in your personal plan."
@@ -25,7 +25,7 @@
   a: "Your privacy is taken seriously. All consultations are confidential, and ThriveCare follows Canadian and provincial privacy laws to protect your personal health information."
 - q: "What happens at my first appointment?"
   process: true
-  a: "Your first visit is a 45‑minute virtual appointment to review your medical history, set your goals together, order lab work if indicated, and build your personal plan."
+  a: "Your first visit is a 45‑minute virtual appointment to review your medical history, set your goals together, arrange any bloodwork you may need, and build your personal plan."
 - q: "Is this a quick-fix program?"
   process: true
   a: "No. There are no one-size-fits-all protocols and no automatic prescriptions. Care is personalized and focused on sustainable, long-term results."

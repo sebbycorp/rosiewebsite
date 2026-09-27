@@ -53,7 +53,7 @@ steps:
   - title: "Reach out"
     text: "Get in touch or book online for a quick 15‑minute meet and greet, to make sure ThriveCare is the right match for you."
   - title: "Your first visit"
-    text: "A 45‑minute virtual appointment to review your medical history, set your goals together, order lab work if indicated, and build your personal plan."
+    text: "A 45‑minute virtual appointment to review your medical history, set your goals together, arrange any bloodwork you may need, and build your personal plan."
   - title: "Get started"
     text: "Your plan is reviewed together, with education on nutrition, exercise and sleep, as well as how to take your medication if it's part of your plan."
 
@@ -65,7 +65,7 @@ fees:
     text: "A 15‑minute virtual appointment to see if ThriveCare is the right fit for you."
   - name: "Initial consultation"
     fee: "$150"
-    text: "A 45‑minute virtual appointment to review your medical history, set your goals, order lab work if indicated and build your plan together."
+    text: "A 45‑minute virtual appointment to review your medical history, set your goals together, arrange any bloodwork you may need, and build your personal plan."
   - name: "Follow-up"
     fee: "$75"
     text: "A 30‑minute virtual appointment after your initial consultation."

@@ -15,7 +15,7 @@ values:
   - title: "Care that listens"
     text: "Care starts with listening: taking the time to understand your health, your history and what you want to change, so your goals set the direction."
   - title: "Care that sees the whole picture"
-    text: "The whole picture matters, including your medical history, labs, medications, sleep, stress, activity and nutrition. From there, a plan is built together with you that is safe, evidence-based and realistic for your life."
+    text: "The whole picture matters, including your medical history, bloodwork, medications, sleep, stress, activity and nutrition. From there, a plan is built together with you that is safe, evidence-based and realistic for your life."
   - title: "Care at your pace"
     text: "Everything moves at your pace, with no pressure. You're supported at every step, and the plan is adjusted as you go."
 
@@ -25,7 +25,7 @@ steps:
   - title: "Reach out"
     text: "Get in touch or book online for a quick 15‑minute meet and greet, to make sure ThriveCare is the right match for you."
   - title: "Your first visit"
-    text: "A 45‑minute virtual appointment to review your medical history, set your goals together, order lab work if indicated, and build your personal plan."
+    text: "A 45‑minute virtual appointment to review your medical history, set your goals together, arrange any bloodwork you may need, and build your personal plan."
   - title: "Get started"
     text: "Your plan is reviewed together, with education on nutrition, exercise and sleep, as well as how to take your medication if it's part of your plan."
 
