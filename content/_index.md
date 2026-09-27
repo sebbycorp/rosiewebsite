@@ -4,7 +4,7 @@ description: "Supportive, medically guided weight loss care, focused on your who
 
 hero:
   eyebrow: "Medical weight loss"
-  heading: "Your body, your pace, your plan."
+  heading: "Your pace, your plan."
   text: "Medical weight management designed around your body, your hormones and your life."
   primary_cta: "Book a consultation"
   secondary_cta: "How it works"
