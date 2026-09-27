@@ -1,9 +1,12 @@
 {{- /* Context: dict "items" (slice of FAQ entries from data/faq.yaml) */ -}}
-<div class="faq">
-  {{ range .items }}
-  <details class="faq-item">
-    <summary><span>{{ .q }}</span><span class="faq-icon" aria-hidden="true"></span></summary>
-    <div class="faq-body"><p>{{ .a | markdownify }}</p></div>
-  </details>
-  {{ end }}
+<div class="faq-col">
+  <div class="faq">
+    {{ range .items }}
+    <details class="faq-item">
+      <summary><span>{{ .q }}</span><span class="faq-icon" aria-hidden="true"></span></summary>
+      <div class="faq-body"><p>{{ .a | markdownify }}</p></div>
+    </details>
+    {{ end }}
+  </div>
+  <p class="faq-more">Still have questions? Book a complimentary meet and greet or <a href="{{ "contact/" | relURL }}">get in touch</a>, and we'll help you find the right next step.</p>
 </div>
