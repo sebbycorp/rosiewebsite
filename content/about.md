@@ -27,14 +27,14 @@ founder:
 > **Draft section.** The provider bio above is final. Replace the placeholder text below with ThriveCare's real story and approach.
 > Please don't add statistics or testimonials until they're confirmed.
 
-## Our approach
+## The ThriveCare approach
 
 Draft (edit me): ThriveCare was created to offer weight loss care that is supportive, respectful and grounded in health, not appearance. Describe why ThriveCare exists and who it's for.
 
-- **We start by listening.** Draft: explain how you get to know each person.
-- **We look at the whole picture.** Draft: sleep, energy, mood, stress, movement and nutrition all matter.
-- **We make plans together.** Draft: describe how plans are built with each person and adjusted over time.
+- **Care starts with listening.** Draft: explain how you get to know each person.
+- **The whole picture matters.** Draft: sleep, energy, mood, stress, movement and nutrition all matter.
+- **Plans are made together.** Draft: describe how plans are built with each person and adjusted over time.
 
-## Where we are
+## Location
 
-ThriveCare is based in Ontario. All of our appointments are virtual, so you can meet with us from the comfort of home.
+ThriveCare is based in Ontario. All appointments are virtual, so you can attend from the comfort of home.

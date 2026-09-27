@@ -29,7 +29,7 @@ enableRobotsTXT = true
     pageRef = "/weight-optimization"
     weight = 20
   [[menus.main]]
-    name = "About us"
+    name = "About"
     pageRef = "/about"
     weight = 40
   [[menus.main]]

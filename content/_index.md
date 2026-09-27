@@ -10,24 +10,24 @@ hero:
   secondary_cta: "How it works"
   note: "Ontario-based · Virtual visits"
 
-values_heading: "Our approach"
+values_heading: "The ThriveCare approach"
 values:
-  - title: "We listen"
-    text: "Care starts with listening. We take the time to understand your health, your history and what you want to change, so your goals set the direction."
-  - title: "We look at the whole picture"
-    text: "We look at the whole picture, including your medical history, labs, medications, sleep, stress, activity and nutrition. Then we build a plan together that is safe, evidence-based and realistic for your life."
-  - title: "We go at your pace"
-    text: "And we go at your pace, with no pressure. We're with you at every step, and we adjust the plan as you go."
+  - title: "Care that listens"
+    text: "Care starts with listening: taking the time to understand your health, your history and what you want to change, so your goals set the direction."
+  - title: "Care that sees the whole picture"
+    text: "The whole picture matters, including your medical history, labs, medications, sleep, stress, activity and nutrition. From there, a plan is built together with you that is safe, evidence-based and realistic for your life."
+  - title: "Care at your pace"
+    text: "Everything moves at your pace, with no pressure. You're supported at every step, and the plan is adjusted as you go."
 
 steps_heading: "Getting started is simple"
 steps_intro: "Draft (edit me): three steps from first hello to ongoing support."
 steps:
   - title: "Reach out"
-    text: "Contact us or book online for a quick 15‑minute meet and greet, so we can make sure we're the right match for you."
+    text: "Get in touch or book online for a quick 15‑minute meet and greet, to make sure ThriveCare is the right match for you."
   - title: "Your first visit"
-    text: "A 45‑minute virtual appointment where we review your medical history, set your goals together, order lab work if indicated, and build your personal plan."
+    text: "A 45‑minute virtual appointment to review your medical history, set your goals together, order lab work if indicated, and build your personal plan."
   - title: "Get started"
-    text: "We go over your plan together and provide education on nutrition, exercise and sleep, as well as how to take your medication if it's part of your plan."
+    text: "Your plan is reviewed together, with education on nutrition, exercise and sleep, as well as how to take your medication if it's part of your plan."
 
 provider:
   heading: "Meet your provider"
