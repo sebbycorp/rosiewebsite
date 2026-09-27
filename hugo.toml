@@ -10,12 +10,12 @@ enableRobotsTXT = true
   description = "ThriveCare offers supportive, medically guided weight loss care, focused on your whole health, without judgement. (Draft description: edit me.)"
   tagline = "Medical weight loss"   # text tagline; menopause care is coming soon (the logo artwork is unchanged)
   # --- PLACEHOLDER CONTACT DETAILS: replace before launch ---
-  email = "hello@example.com"
-  emailNote = "Placeholder email: edit me"
-  phone = "(000) 000-0000"
-  phoneNote = "Placeholder phone: edit me"
+  email = "rosie@thrivecare.ca"
+  emailNote = ""
+  phone = ""   # leave empty to hide the phone number
+  phoneNote = ""
   address = "Ontario-based · Virtual appointments"
-  hours = "Hours (edit me)"
+  hours = ""   # leave empty to hide hours
   bookingURL = ""   # e.g. an online booking link; leave empty to send people to the Contact page
   disclaimer = "PLACEHOLDER DISCLAIMER (edit me; have it reviewed): Information on this website is general in nature and is not medical advice. It does not replace an individual assessment by a qualified health care professional. If you have an urgent medical concern, call 911 or go to your nearest emergency department."
 

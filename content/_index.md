@@ -1,6 +1,6 @@
 ---
 title: "ThriveCare"
-description: "Supportive, medically guided weight loss care, focused on your whole health, without judgement. (Draft: edit me.)"
+description: "Personalized, evidence-based medical weight management for adults in Ontario, delivered virtually by a nurse practitioner."
 
 hero:
   eyebrow: "Medical weight loss"
@@ -20,7 +20,7 @@ values:
     text: "Everything moves at your pace, with no pressure. You're supported at every step, and the plan is adjusted as you go."
 
 steps_heading: "Getting started is simple"
-steps_intro: "Draft (edit me): three steps from first hello to ongoing support."
+steps_intro: "Three simple steps to your personal plan."
 steps:
   - title: "Reach out"
     text: "Get in touch or book online for a quick 15‑minute meet and greet, to make sure ThriveCare is the right match for you."
@@ -38,6 +38,6 @@ faq_heading: "Frequently asked questions"
 
 cta:
   heading: "Ready to take the first step?"
-  text: "Reach out with questions or book a first conversation. There's no pressure and no judgement. (Draft: edit me.)"
-  button: "Get started"
+  text: "Start with a complimentary 15‑minute virtual meet and greet. There's no pressure and no judgement."
+  button: "Book a meet and greet"
 ---

@@ -12,9 +12,9 @@
     <div class="footer-col footer-contact">
       <h2 class="footer-heading">Contact</h2>
       <ul class="footer-list">
-        <li><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a> <span class="placeholder-tag">{{ site.Params.emailNote }}</span></li>
-        <li><a href="tel:{{ replaceRE "[^0-9+]" "" site.Params.phone }}">{{ site.Params.phone }}</a> <span class="placeholder-tag">{{ site.Params.phoneNote }}</span></li>
-        <li>{{ site.Params.address }}</li>
+        {{ with site.Params.email }}<li><a href="mailto:{{ . }}">{{ . }}</a>{{ with site.Params.emailNote }} <span class="placeholder-tag">{{ . }}</span>{{ end }}</li>{{ end }}
+        {{ with site.Params.phone }}<li><a href="tel:{{ replaceRE "[^0-9+]" "" . }}">{{ . }}</a>{{ with site.Params.phoneNote }} <span class="placeholder-tag">{{ . }}</span>{{ end }}</li>{{ end }}
+        {{ with site.Params.address }}<li>{{ . }}</li>{{ end }}
       </ul>
     </div>
   </div>

@@ -47,7 +47,7 @@ goals:
     - "Just personalized medical care designed around you."
 
 steps_heading: "Your care, step by step"
-steps_intro: "Draft (edit me): a short sentence about how care is paced around you, with no pressure and no judgement."
+steps_intro: "Three simple steps to your personal plan."
 # Each step: title, text, and an optional list of "details" bullets.
 steps:
   - title: "Reach out"

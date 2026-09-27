@@ -20,20 +20,20 @@
 - title: "Comprehensive health assessment"
   icon: clipboard
   featured: true
-  summary: "Draft: a thorough first visit to understand your health history, daily life and what matters most to you."
+  summary: "A 45‑minute virtual visit covering your medical history, goals and lab work if indicated."
   details:
     - "Medical history, goal setting, lab work if indicated, and your plan"
     - "Virtual, 45 minutes"
 - title: "Medical weight loss plan"
   icon: plan
   featured: true
-  summary: "Draft: a weight loss plan built with you, shaped around your health, routines, culture and preferences, never one-size-fits-all."
+  summary: "A personalized plan that may include nutrition and protein guidance, activity, and medication when clinically appropriate."
   details:
     - "How plans are created and reviewed (edit me)"
 - title: "Follow-up and ongoing support"
   icon: calendar
   featured: true
-  summary: "Draft: regular check-ins to see how you're doing, celebrate progress of every kind and adjust your plan as needed."
+  summary: "Regular virtual follow-ups to monitor progress, manage side effects and adjust your plan as you go."
   details:
     - "Frequency and format of follow-ups (edit me)"
 - title: "Nutrition guidance"
