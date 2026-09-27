@@ -118,7 +118,6 @@
     <div class="section-intro">
       <p class="kicker kicker-lg">FAQ</p>
       <h2 id="faq-heading">{{ .Params.faq_heading }}</h2>
-      <p>Have another question? <a href="{{ "contact/" | relURL }}">Contact us</a>.</p>
     </div>
     {{ partial "faq.html" (dict "items" (where hugo.Data.faq "process" true)) }}
   </div>
