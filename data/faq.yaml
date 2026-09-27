@@ -15,7 +15,8 @@
   process: true
   a: "All of our appointments are virtual, so you can meet with us from the comfort of home. ThriveCare is based in Ontario."
 - q: "How much does it cost, and is it covered?"
-  a: "The meet and greet is complimentary. The initial consultation is $150 and follow-up visits are $75. Fees do not include the cost of any medication, which may be covered by private benefits or paid out of pocket. Some extended health benefit plans also cover nurse practitioner visits, so please check with your provider. See our full fee list on the [Weight optimization page](/weight-optimization/#fees)."
+  process: true
+  a: "Nurse practitioner visits are not covered by OHIP, but they may be covered under your extended health benefits, so we recommend checking with your benefits provider. Lab work is covered by OHIP. Medication costs are separate and may be covered by private benefits or paid out of pocket. You can find details about our visits in the [Fees section](/weight-optimization/#fees)."
 - q: "How does ThriveCare protect my privacy?"
   process: true
   a: "We take your privacy seriously. All consultations are confidential, and we follow Canadian and provincial privacy laws to protect your personal health information."
