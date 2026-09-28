@@ -6,8 +6,8 @@ subheading: "Your health deserves more than a prescription."
 intro:
   - "At ThriveCare, effective weight management starts with understanding the whole person—not simply the number on the scale."
   - "ThriveCare provides personalized, evidence-based medical care for adults looking to improve their weight, body composition and metabolic health."
-# The old Services and How it works pages redirect here.
-aliases: ["/services/", "/how-it-works/", "/weight-management/"]
+# The old Weight optimization, Services and How it works pages redirect here.
+aliases: ["/weight-optimization/", "/services/", "/how-it-works/"]
 
 approach:
   heading: "A Personalized Approach"

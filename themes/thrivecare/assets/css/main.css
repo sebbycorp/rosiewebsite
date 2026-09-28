@@ -303,7 +303,7 @@ main:focus { outline: none; }
 /* Links on beige / greige bands use the deeper sage for extra contrast */
 .section-beige a:not(.btn), .section-greige a:not(.btn), .section-sage a:not(.btn) { color: var(--sage-ink); }
 
-/* Fees list (Weight optimization page) */
+/* Fees list (Weight management page) */
 .fee-list { list-style: none; max-width: 52rem; margin: 0 auto; padding: 0; }
 .fee { display: grid; grid-template-columns: 1fr; gap: .25rem; padding: 2rem 0; border-top: 1px solid var(--greige-deep); }
 .fee:last-child { border-bottom: 1px solid var(--greige-deep); }
@@ -313,7 +313,7 @@ main:focus { outline: none; }
 @media (min-width: 40rem) { .fee { grid-template-columns: 1fr auto; gap: 0 3rem; align-items: center; } .fee-price { margin: 0; text-align: right; font-size: 2.1rem; } }
 .fee-note { max-width: 52rem; margin: 1.5rem auto 0; color: var(--ink-muted); font-size: .88rem; text-align: center; }
 
-/* Weight optimization page */
+/* Weight management page */
 .page-intro { max-width: 40rem; margin: 1.5rem auto 0; color: var(--ink-muted); }
 .page-intro p { margin: 0 0 .9rem; }
 .page-intro p:last-child { margin-bottom: 0; }

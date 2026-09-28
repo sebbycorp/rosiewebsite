@@ -1,6 +1,6 @@
 # ---------------------------------------------------------------
 # Frequently asked questions (DRAFT). All are shown on the Home page.
-# Questions with process: true are also shown on the Weight optimization page.
+# Questions with process: true are also shown on the Weight management page.
 # Answers support Markdown links, e.g. [text](/menopause/).
 # Replace every answer with confirmed information before launch.
 # ---------------------------------------------------------------
@@ -16,7 +16,7 @@
   a: "All appointments are virtual, so you can meet with your nurse practitioner from the comfort of home. ThriveCare is based in Ontario."
 - q: "How much does it cost, and is it covered?"
   process: true
-  a: "Nurse practitioner visits aren't covered by OHIP, so visits are paid privately, though they may be covered under your extended health benefits. Please check with your benefits provider to see what your plan includes. Bloodwork is covered by OHIP, and medication costs are separate and may be covered by private benefits or paid out of pocket. You'll find details about each visit in the [Fees section](/weight-optimization/#fees)."
+  a: "Nurse practitioner visits aren't covered by OHIP, so visits are paid privately, though they may be covered under your extended health benefits. Please check with your benefits provider to see what your plan includes. Bloodwork is covered by OHIP, and medication costs are separate and may be covered by private benefits or paid out of pocket. You'll find details about each visit in the [Fees section](/weight-management/#fees)."
 - q: "Can you prescribe medication?"
   process: true
   a: "Yes. Nurse practitioners in Ontario can prescribe medication. If medication is clinically appropriate for you, your options will be discussed together and included in your personal plan."
