@@ -22,6 +22,14 @@
       <h2 id="values-heading" class="label-lined"><span>{{ .Params.values_heading }}</span></h2>
       {{ with .Params.values_intro }}<p class="lead lead-serif">{{ . }}</p>{{ end }}
     </div>
+    {{ with .Params.values_image }}
+    <figure class="approach-photo">
+      <picture>
+        <source type="image/webp" srcset="{{ printf "%s-800.webp" . | relURL }} 800w, {{ printf "%s.webp" . | relURL }} 1400w" sizes="(min-width: 64rem) 56rem, 100vw">
+        <img src="{{ printf "%s.jpg" . | relURL }}" srcset="{{ printf "%s-800.jpg" . | relURL }} 800w, {{ printf "%s.jpg" . | relURL }} 1400w" sizes="(min-width: 64rem) 56rem, 100vw" alt="{{ $.Params.values_image_alt }}" width="1400" height="788" loading="lazy" decoding="async">
+      </picture>
+    </figure>
+    {{ end }}
     <ul class="value-grid{{ if eq (len .Params.values) 3 }} value-grid-3{{ end }}" role="list">
       {{ range .Params.values }}
       <li class="value">

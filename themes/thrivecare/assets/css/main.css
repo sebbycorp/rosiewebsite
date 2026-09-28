@@ -343,3 +343,8 @@ main:focus { outline: none; }
 .form-after { margin-top: 1.25rem; }
 #book { scroll-margin-top: 7rem; }
 .thanks-wrap { text-align: center; }
+/* Approach photo (homepage) */
+.approach-photo { max-width: 56rem; margin: 0 auto 3.5rem; }
+.approach-photo img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; object-position: 38% 35%; border-radius: 10rem 10rem 0 0; background: var(--beige); }
+@media (min-width: 40rem) { .approach-photo img { aspect-ratio: 16 / 9; border-radius: 16rem 16rem 0 0; } }
+@media (min-width: 64rem) { .approach-photo { margin-bottom: 4.5rem; } .approach-photo img { border-radius: 22rem 22rem 0 0; } }

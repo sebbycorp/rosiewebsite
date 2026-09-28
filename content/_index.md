@@ -11,6 +11,9 @@ hero:
   note: "Ontario-based · Virtual visits"
 
 values_heading: "The ThriveCare approach"
+# Photo: Artem Podrez (Pexels), free to use. Files in static/images/ (jpg + webp, 1400 and 800 wide).
+values_image: "images/approach-virtual-visit"
+values_image_alt: "A woman smiling during a relaxed virtual appointment at home"
 values:
   - title: "Care that listens"
     text: "Care starts with listening: taking the time to understand your health, your history and what you want to change, so your goals set the direction."
