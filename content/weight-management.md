@@ -33,8 +33,8 @@ medication:
   photos:
     - file: "nutrition-meal-prep"
       alt: "Three meal prep containers with grains, chickpeas, tomatoes and fresh vegetables"
-    - file: "exercise-walking"
-      alt: "A smiling couple out for a walk together on a sunny day"
+    - file: "exercise-weights"
+      alt: "Light dumbbells, a water bottle and a foam roller on an exercise mat"
 
 men_women:
   heading: "Care for Men & Women"
