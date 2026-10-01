@@ -34,7 +34,7 @@ steps:
 
 provider:
   heading: "Meet your provider"
-  text: "Rosie Ilnisky is a Nurse Practitioner with over 15 years of nursing experience, including work as a Certified Diabetes Educator. She offers compassionate, evidence-based care focused on realistic, sustainable strategies for long-term health."
+  text: "Rosie is a Nurse Practitioner with over 15 years of nursing experience, including work as a Certified Diabetes Educator. She offers compassionate, evidence-based care focused on realistic, sustainable strategies for long-term health."
   link: "Read the full bio"
 
 faq_heading: "Frequently asked questions"
