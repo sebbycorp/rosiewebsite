@@ -1,8 +1,8 @@
 ---
 title: "About ThriveCare"
 layout: "about"
-description: "About ThriveCare's approach to weight management care, and the person behind it. (Draft: edit me.)"
-intro: "People-first, medically guided weight management care. (Draft: edit me.)"
+description: "Meet Rosemary (Rosie) Ilnisky, MScN, NP, the Nurse Practitioner behind ThriveCare's virtual medical weight management care in Ontario."
+intro: "People-first, medically guided weight management care."
 
 # ------------------------------------------------------------------
 # FOUNDER / PROVIDER BIO: edit these four fields.
@@ -23,17 +23,6 @@ founder:
 
     She takes a personalized, patient-centred approach, working collaboratively with individuals to develop realistic and sustainable strategies that support long-term success. Her goal is to empower patients with the knowledge, tools and support they need to improve their overall health and quality of life.
 ---
-
-> **Draft section.** The provider bio above is final. Replace the placeholder text below with ThriveCare's real story and approach.
-> Please don't add statistics or testimonials until they're confirmed.
-
-## The ThriveCare approach
-
-Draft (edit me): ThriveCare was created to offer weight management care that is supportive, respectful and grounded in health, not appearance. Describe why ThriveCare exists and who it's for.
-
-- **Care starts with listening.** Draft: explain how you get to know each person.
-- **The whole picture matters.** Draft: sleep, energy, mood, stress, movement and nutrition all matter.
-- **Plans are made together.** Draft: describe how plans are built with each person and adjusted over time.
 
 ## Location
 
