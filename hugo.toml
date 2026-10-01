@@ -10,7 +10,7 @@ enableRobotsTXT = true
   description = "Personalized, evidence-based medical weight management and weight loss care for adults in Ontario, delivered virtually by a nurse practitioner."
   tagline = "Medical Weight Management in Ontario"   # text tagline; menopause care is coming soon (the logo artwork is unchanged)
   # --- PLACEHOLDER CONTACT DETAILS: replace before launch ---
-  email = "rosie@thrivecare.ca"
+  email = "info@thrivecare.ca"
   emailNote = ""
   phone = ""   # leave empty to hide the phone number
   phoneNote = ""
