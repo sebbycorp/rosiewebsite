@@ -32,6 +32,18 @@
       <h2 id="medication-heading">{{ .heading }}</h2>
       {{ range $i, $p := .paragraphs }}<p class="{{ if eq $i 0 }}lead lead-serif{{ else }}lead{{ end }}">{{ $p }}</p>{{ end }}
     </div>
+    {{ with .photos }}
+    <div class="photo-pair">
+      {{ range . }}
+      <figure class="arch-frame">
+        <picture>
+          <source type="image/webp" srcset="{{ printf "images/%s-480.webp" .file | relURL }} 480w, {{ printf "images/%s.webp" .file | relURL }} 800w" sizes="(min-width: 48rem) 19rem, 78vw">
+          <img class="arch-photo" src="{{ printf "images/%s.jpg" .file | relURL }}" alt="{{ .alt }}" width="800" height="1000" loading="lazy" decoding="async">
+        </picture>
+      </figure>
+      {{ end }}
+    </div>
+    {{ end }}
   </div>
 </section>
 {{ end }}

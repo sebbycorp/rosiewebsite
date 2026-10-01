@@ -29,6 +29,12 @@ medication:
   paragraphs:
     - "Medications such as GLP-1s can be an important tool for appropriate patients—but they are not the entire treatment plan."
     - "At ThriveCare, care looks at the bigger picture to determine whether medication is appropriate, how it fits into your goals, and what other strategies can support sustainable results."
+  # Nutrition photos (Pexels, free to use). Files live in static/images/.
+  photos:
+    - file: "nutrition-meal-prep"
+      alt: "Three meal prep containers with grains, chickpeas, tomatoes and fresh vegetables"
+    - file: "nutrition-jars"
+      alt: "Glass jars of quinoa salad with tomatoes and fresh greens"
 
 men_women:
   heading: "Care for Men & Women"

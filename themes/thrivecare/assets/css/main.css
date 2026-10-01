@@ -348,3 +348,8 @@ main:focus { outline: none; }
 .approach-photo img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; object-position: 38% 35%; border-radius: 10rem 10rem 0 0; background: var(--beige); }
 @media (min-width: 40rem) { .approach-photo img { aspect-ratio: 16 / 9; border-radius: 16rem 16rem 0 0; } }
 @media (min-width: 64rem) { .approach-photo { margin-bottom: 4.5rem; } .approach-photo img { border-radius: 22rem 22rem 0 0; } }
+
+/* Paired arch photos (Weight management: nutrition) */
+.photo-pair { display: grid; grid-template-columns: 1fr; gap: 3rem; justify-items: center; margin: 3.5rem auto 0; max-width: 46rem; }
+.photo-pair .arch-photo { object-position: center; }
+@media (min-width: 48rem) { .photo-pair { grid-template-columns: 1fr 1fr; gap: 2.5rem; } .photo-pair .arch-frame { width: min(19rem, 100%); } }
