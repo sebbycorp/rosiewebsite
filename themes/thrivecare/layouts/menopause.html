@@ -8,6 +8,16 @@
     {{ with .Params.intro }}<p class="lead">{{ . }}</p>{{ end }}
   </div>
 </section>
+<section class="section section-tight">
+  <div class="container">
+    <figure class="infographic">
+      <picture>
+        <source type="image/webp" srcset="{{ "images/menopause-symptoms.webp" | relURL }}">
+        <img src="{{ "images/menopause-symptoms.jpg" | relURL }}" width="1536" height="1024" loading="lazy" decoding="async" alt="Common symptoms of perimenopause and menopause, including hot flashes, night sweats, sleep disturbances, fatigue, brain fog, mood swings, anxiety and depression, weight gain, joint pain, headaches, irregular periods, loss of libido and vaginal dryness">
+      </picture>
+    </figure>
+  </div>
+</section>
 <section class="section">
   <div class="container soon-card">
     <div class="arch arch-sage" aria-hidden="true"><img src="{{ "images/leaf-mark.svg" | relURL }}" alt="" width="80" height="80"></div>
