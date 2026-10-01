@@ -6,6 +6,8 @@
 #   not listed here. It has its own "Coming soon" page
 #   (content/menopause.md). Add it back here once it's available.
 # - "details" is optional; each line shows as a bullet point.
+# - photo (optional): image name in static/images/ (without .jpg);
+#   shows instead of the icon. Add photo_alt to describe it.
 # - icon options: chat, clipboard, plan, calendar, leaf, sprout,
 #   heart, shield
 # Please don't add prices, coverage details, credentials or
@@ -18,6 +20,8 @@
   details:
     - "Complimentary, 15 minutes, virtual"
 - title: "Comprehensive health assessment"
+  photo: "card-assessment"
+  photo_alt: "A laptop, notepad and stethoscope on a sage green desk"
   icon: clipboard
   featured: true
   summary: "A 45‑minute virtual visit covering your medical history, your goals and any bloodwork you may need."
@@ -25,12 +29,16 @@
     - "Medical history, goal setting, any bloodwork you may need, and your plan"
     - "Virtual, 45 minutes"
 - title: "Medical weight management plan"
+  photo: "card-plan"
+  photo_alt: "Meal prep containers with grains, chickpeas and fresh vegetables"
   icon: plan
   featured: true
   summary: "A personalized plan that may include nutrition and protein guidance, activity, and medication when clinically appropriate."
   details:
     - "How plans are created and reviewed (edit me)"
 - title: "Follow-up and ongoing support"
+  photo: "card-follow-up"
+  photo_alt: "A smiling woman waving during a video call at a bright desk with a plant"
   icon: calendar
   featured: true
   summary: "Regular virtual follow-ups to monitor progress, manage side effects and adjust your plan as you go."

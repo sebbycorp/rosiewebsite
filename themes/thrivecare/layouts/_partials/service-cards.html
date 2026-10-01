@@ -2,9 +2,18 @@
 <ul class="card-grid" role="list">
   {{ range $i, $s := .items }}
   <li class="card">
+    {{ with $s.photo }}
+    <div class="card-art card-art-photo">
+      <picture>
+        <source type="image/webp" srcset="{{ printf "images/%s.webp" . | relURL }}">
+        <img src="{{ printf "images/%s.jpg" . | relURL }}" alt="{{ $s.photo_alt }}" width="960" height="540" loading="lazy" decoding="async">
+      </picture>
+    </div>
+    {{ else }}
     <div class="card-art{{ if modBool $i 2 }} card-art-sage{{ end }}" aria-hidden="true">
       {{ partial "service-icon.html" $s.icon }}
     </div>
+    {{ end }}
     <div class="card-body">
       <h3>{{ $s.title }}</h3>
       <p>{{ $s.summary }}</p>
