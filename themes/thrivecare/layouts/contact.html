@@ -6,7 +6,7 @@
       {{ .Content }}
       <h2>Other ways to get in touch</h2>
       <dl class="contact-details">
-        {{ with site.Params.email }}<dt>Email</dt><dd><a href="mailto:{{ . }}">{{ . }}</a>{{ with site.Params.emailNote }} <span class="placeholder-tag">{{ . }}</span>{{ end }}</dd>{{ end }}
+        {{ with site.Params.email }}<dt>Email</dt><dd><a class="footer-social" href="mailto:{{ . }}"><img class="footer-social-icon" src="{{ "images/email.svg" | relURL }}" alt="" width="16" height="16"><span>{{ . }}</span></a>{{ with site.Params.emailNote }} <span class="placeholder-tag">{{ . }}</span>{{ end }}</dd>{{ end }}
         {{ with site.Params.phone }}<dt>Phone</dt><dd><a href="tel:{{ replaceRE "[^0-9+]" "" . }}">{{ . }}</a>{{ with site.Params.phoneNote }} <span class="placeholder-tag">{{ . }}</span>{{ end }}</dd>{{ end }}
         {{ with site.Params.address }}<dt>Location</dt><dd>{{ . }}</dd>{{ end }}
         {{ with site.Params.hours }}<dt>Hours</dt><dd>{{ . }}</dd>{{ end }}
