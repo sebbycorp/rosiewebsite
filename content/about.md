@@ -19,7 +19,7 @@ founder:
   bio: |
     Rosie is a Nurse Practitioner with over 15 years of nursing experience, practising as a Registered Nurse since 2009 and a Nurse Practitioner since 2019. A graduate of McMaster University, she is committed to providing compassionate, evidence-based care that supports lasting health and wellness.
 
-    Rosie has extensive experience in primary care, chronic disease management, metabolic health and weight management. She has provided comprehensive weight management care and previously worked as a Certified Diabetes Educator, supporting individuals with diabetes, insulin resistance and other metabolic health concerns.
+    Rosie has extensive experience in primary care, chronic disease management, metabolic health and weight management. She has provided comprehensive weight management care and previously worked as a Certified Diabetes Educator, delivering nutrition support and supporting individuals with diabetes, insulin resistance and other metabolic health concerns.
 
     She takes a personalized, patient-centred approach, working collaboratively with individuals to develop realistic and sustainable strategies that support long-term success. Her goal is to empower patients with the knowledge, tools and support they need to improve their overall health and quality of life.
 ---
