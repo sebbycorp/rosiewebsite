@@ -363,3 +363,8 @@ main:focus { outline: none; }
 .section-tight { padding-bottom: 0; }
 .infographic { margin: 0 auto; max-width: 1040px; }
 .infographic img { display: block; width: 100%; height: auto; border-radius: var(--radius); box-shadow: 0 1px 0 var(--rule); }
+
+/* Footer / contact Instagram link */
+.footer-social { display: inline-flex; align-items: center; gap: .4rem; text-decoration: none; }
+.footer-social:hover { text-decoration: underline; }
+.footer-social-icon { width: 1rem; height: 1rem; flex: none; }

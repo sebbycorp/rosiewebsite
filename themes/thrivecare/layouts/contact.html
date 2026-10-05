@@ -10,7 +10,7 @@
         {{ with site.Params.phone }}<dt>Phone</dt><dd><a href="tel:{{ replaceRE "[^0-9+]" "" . }}">{{ . }}</a>{{ with site.Params.phoneNote }} <span class="placeholder-tag">{{ . }}</span>{{ end }}</dd>{{ end }}
         {{ with site.Params.address }}<dt>Location</dt><dd>{{ . }}</dd>{{ end }}
         {{ with site.Params.hours }}<dt>Hours</dt><dd>{{ . }}</dd>{{ end }}
-        {{ with site.Params.instagram }}<dt>Instagram</dt><dd><a href="https://www.instagram.com/{{ . }}/" rel="noopener noreferrer" target="_blank">@{{ . }}</a></dd>{{ end }}
+        {{ with site.Params.instagram }}<dt>Instagram</dt><dd><a class="footer-social" href="https://www.instagram.com/{{ . }}/" rel="noopener noreferrer" target="_blank"><img class="footer-social-icon" src="{{ "images/instagram.svg" | relURL }}" alt="" width="16" height="16"><span>@{{ . }}</span></a></dd>{{ end }}
       </dl>
     </div>
     <div class="form-card" id="book">

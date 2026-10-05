@@ -15,7 +15,7 @@
         {{ with site.Params.email }}<li><a href="mailto:{{ . }}">{{ . }}</a>{{ with site.Params.emailNote }} <span class="placeholder-tag">{{ . }}</span>{{ end }}</li>{{ end }}
         {{ with site.Params.phone }}<li><a href="tel:{{ replaceRE "[^0-9+]" "" . }}">{{ . }}</a>{{ with site.Params.phoneNote }} <span class="placeholder-tag">{{ . }}</span>{{ end }}</li>{{ end }}
         {{ with site.Params.address }}<li>{{ . }}</li>{{ end }}
-        {{ with site.Params.instagram }}<li><a href="https://www.instagram.com/{{ . }}/" rel="noopener noreferrer" target="_blank">@{{ . }}</a> on Instagram</li>{{ end }}
+        {{ with site.Params.instagram }}<li><a class="footer-social" href="https://www.instagram.com/{{ . }}/" rel="noopener noreferrer" target="_blank"><img class="footer-social-icon" src="{{ "images/instagram.svg" | relURL }}" alt="" width="16" height="16"><span>@{{ . }}</span></a></li>{{ end }}
       </ul>
     </div>
   </div>
