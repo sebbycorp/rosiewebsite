@@ -17,11 +17,12 @@ founder:
   photo: "images/provider.jpg"
   photo_alt: "Portrait of Rosemary (Rosie) Ilnisky, nurse practitioner and founder of ThriveCare"
   bio: |
-    Rosie is a Nurse Practitioner with over 15 years of nursing experience, practising as a Registered Nurse since 2009 and a Nurse Practitioner since 2019. A graduate of McMaster University, she is committed to providing compassionate, evidence-based care that supports lasting health and wellness.
+    Rosie is a Nurse Practitioner with over 15 years of nursing experience, practising as a Registered Nurse since 2009 and as a Nurse Practitioner since 2019. A graduate of McMaster University, she is committed to providing compassionate care that supports lasting health and wellness.
 
-    Rosie has extensive experience in primary care, chronic disease management, metabolic health, and medical weight management. She has cared for patients with diabetes, insulin resistance, obesity, and other metabolic health concerns, providing personalized treatment plans that may include prescription medications, nutrition, and lifestyle support. As a former Certified Diabetes Educator, Rosie brings a strong understanding of how metabolic health affects the whole person and is committed to providing practical, evidence-based care that helps patients achieve lasting results.
+    Rosie has extensive experience in primary care, chronic disease management, metabolic health, and medical weight management. She has cared for patients with diabetes and a range of weight-related concerns, developing personalized treatment plans that may include prescription medications, nutrition, and lifestyle support. As a former Certified Diabetes Educator, she brings a strong understanding of the connection between metabolic health and overall well-being, with a focus on practical, evidence-based strategies that help patients achieve meaningful and lasting results.
 
-    She takes a personalized, patient-centred approach, working collaboratively with individuals to develop realistic and sustainable strategies that support long-term success. Her goal is to empower patients with the knowledge, tools and support they need to improve their overall health and quality of life.
+    She works at each patient's pace and focuses on realistic, sustainable strategies for long-term health. Her goal is to empower patients with the knowledge, tools and support they need to improve their overall health and quality of life.
+
 ---
 
 ## Location
