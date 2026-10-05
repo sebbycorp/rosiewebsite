@@ -21,7 +21,7 @@ founder:
 
     Rosie has extensive experience in primary care, chronic disease management, metabolic health, and medical weight management. She has cared for patients with diabetes and a range of weight-related concerns, developing personalized treatment plans that may include prescription medications, nutrition, and lifestyle support. As a former Certified Diabetes Educator, she brings a strong understanding of the connection between metabolic health and overall well-being, with a focus on practical, evidence-based strategies that help patients achieve meaningful and lasting results.
 
-    She works at each patient's pace and focuses on realistic, sustainable strategies for long-term health. Her goal is to empower patients with the knowledge, tools and support they need to improve their overall health and quality of life.
+    She works at each patient's pace and focuses on realistic, sustainable strategies for long-term health. With a background in prevention, she believes in building habits that help protect against future health concerns. Her goal is to empower patients with the knowledge, tools and support they need to improve their overall health and quality of life.
 
 ---
 
