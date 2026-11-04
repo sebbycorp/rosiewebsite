@@ -17,7 +17,7 @@ founder:
   photo: "images/provider.jpg"
   photo_alt: "Portrait of Rosemary (Rosie) Ilnisky, nurse practitioner and founder of ThriveCare"
   bio: |
-    Rosie is a Nurse Practitioner with over 15 years of nursing experience, practising as a Registered Nurse since 2009 and as a Nurse Practitioner since 2019. A graduate of McMaster University, she is committed to providing compassionate care that supports lasting health and wellness.
+    Rosie is a Nurse Practitioner with over 15 years of nursing experience, practising as a Registered Nurse since 2009 and as a Nurse Practitioner since 2019. A graduate of McMaster University, she is committed to providing compassionate care that supports lasting health and wellness. Rosie is based in Halton Region and provides virtual care to patients across Ontario.
 
     Rosie has extensive experience in primary care, chronic disease management, metabolic health, and medical weight management. She has cared for patients with diabetes and a range of weight-related concerns, developing personalized treatment plans that may include prescription medications, nutrition, and lifestyle support. As a former Certified Diabetes Educator, she brings a strong understanding of the connection between metabolic health and overall well-being, with a focus on practical, evidence-based strategies that help patients achieve meaningful and lasting results.
 
@@ -27,4 +27,4 @@ founder:
 
 ## Location
 
-ThriveCare is based in Ontario. All appointments are virtual, so you can attend from the comfort of home.
+ThriveCare is based in Halton Region, Ontario. All appointments are virtual, so you can attend from the comfort of home.
